@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!---->
+	<link rel="icon" href="../muse.ico">
+	<!--styles-->
+	<link rel="stylesheet" href="/styles/home.css">
+	<link href="../css/player.css" rel="stylesheet">
+	<!-- libraries-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.js"></script>
+	<!--player-->
+	<script src="../js/button.js"></script>
+	<script src="../js/equalizer.js"></script>
+    <script src="../js/controlManip.js"></script>
+	<script src="../js/parseNload.js"></script>
+	<script src="../js/buildDOM.js"></script>
+	<script src="../js/viz.js"></script>
+	<!--p5sketches-->
+	<script src="../js/VizVars.js"></script>
+	<script src="../js/SKETCHES.js"></script>
+	<!-- -->
+    <!--meta-->
+    <title>player template</title>
+</head>
+<body id="main">
+	<img class="cover"  id="cvr" tabIndex=-1 />
+	<div id="eq" style="cursor:cell"tabIndex=0   onclick="switchviz(true)" onfocus="console.log('viz change')" class="eq"></div>
+	<div id="ctx" tabIndex=0 class="ctx" ></div>
+	<a class="btn" onkeypress="this.click()" onfocus="this.innerHTML='o'" onfocusout="this.innerHTML=''"  tabIndex=0 href="../index.html"></a>
+	<span id="playingtab">
+	<div tabIndex=-1  id="CONTROLS" class="controlset">
+		<button tabIndex=0  onclick="playprev()" onfocus="console.log('prev')">
+			<div class="tooltip">prev</div><br>
+			<img
+					id="prev"
+					alt="<<" style="height:100%!important; width:auto!important;"/>
+
+		</button>
+		<button title="loop" alt="loop" tabIndex=0   onclick="toggle()" onfocus="console.log( 'loopi/noloop' )">
+			<div class="tooltip" ><span id="loop">loop</span></div><br>
+			<img
+				class="toggledoff"
+				id="loopB"
+				alt="LOOP" style="height:100%!important; width:auto!important;"/>
+
+		</button>
+		<button tabIndex=0  onclick="playnext()" onfocus="console.log('next')" >
+			<div class="tooltip">next</div><br>
+			<img
+				id="next"
+				alt=">>" style="height:100%!important; width:auto!important;"/>
+
+		</button>
+	</div>
+	<br>
+	<audio  tabIndex=0 id="player" crossorigin="anonymous" onended="playnext()" controls>AUDIO</audio>
+	<br>
+	<ul class="flexnone" id="playlistUL"></ul>
+	<button tabIndex=0 class="shuffle"   onclick="shuffle()" onfocus="console.log('shuffle on/of')" >
+		<div class="tooltip" style="width:105%" id="shuffle">shuffle</div><br><br>
+		<img
+			class="toggledoff"
+			id="shuffleB"
+			alt="shuffle"  style="height:100%!important; width:auto!important;">
+
+	</button>
+	</span>
+
+	<div tabIndex=-1 style="display:none" id="playlistchange"></div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+cat *.js > ../SKETCHES.js
