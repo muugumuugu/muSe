@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>id3</title>
+	<link rel="stylesheet" href="/styles/home.css">
+</head>
+<body>
+	<header>
+	<h1>./php for muSe</h1>
+	</header>
+	<ul>
+		<li><a href="assets">assets</a></li>
+		<li><a href="sketchtemplate/template.js">sketchtemplate</a></li>
+		<hr>
+		<li><a href="barGraph.js">barGraph.js</a></li>
+		<li><a href="blobbyboxes.js">blobbyboxes.js</a></li>
+		<li><a href="bouncy.js">bouncy.js</a></li>
+		<li><a href="brush.js">brush.js</a></li>
+		<li><a href="carpet.js">carpet.js</a></li>
+		<li><a href="clothdotspectrum.js">clothdotspectrum.js</a></li>
+		<li><a href="cloudynight.js">cloudynight.js</a></li>
+		<li><a href="constellations.js">constellations.js</a></li>
+		<li><a href="dancingink.js">dancingink.js</a></li>
+		<li><a href="elasticircle.js">elasticircle.js</a></li>
+		<li><a href="emoji.js">emoji.js</a></li>
+		<li><a href="envelope.js">envelope.js</a></li>
+		<li><a href="fib.js">fib.js</a></li>
+		<li><a href="fibrelines.js">fibrelines.js</a></li>
+		<li><a href="hillcity.js">hillcity.js</a></li>
+		<li><a href="keratin.js">keratin.js</a></li>
+		<li><a href="leafequi.js">leafequi.js</a></li>
+		<li><a href="mistyValley.js">mistyValley.js</a></li>
+		<li><a href="moleculeuniverse.js">moleculeuniverse.js</a></li>
+		<li><a href="mountains.js">mountains.js</a></li>
+		<li><a href="multibars.js">multibars.js</a></li>
+		<li><a href="outlinemountainrange.js">outlinemountainrange.js</a></li>
+		<li><a href="radar.js">radar.js</a></li>
+		<li><a href="rainbowblob.js">rainbowblob.js</a></li>
+		<li><a href="rotatingcosomos.js">rotatingcosomos.js</a></li>
+		<li><a href="runes.js">runes.js</a></li>
+		<li><a href="snek.js">snek.js</a></li>
+		<li><a href="softspiketunnel.js">softspiketunnel.js</a></li>
+		<li><a href="spectogram.js">spectogram.js</a></li>
+		<li><a href="spectrabars3d.js">spectrabars3d.js</a></li>
+		<li><a href="spectrumcircle3d.js">spectrumcircle3d.js</a></li>
+		<li><a href="sugar.js">sugar.js</a></li>
+		<li><a href="targetnet.js">targetnet.js</a></li>
+		<li><a href="vinyl.js">vinyl.js</a></li>
+		<li><a href="vlc.js">vlc.js</a></li>
+		<li><a href="voronoi-core.js">voronoi-core.js</a></li>
+		<li><a href="voronoi.js">voronoi.js</a></li>
+		<li><a href="waveit.js">waveit.js</a></li>
+		<li><a href="wonkyclouds.js">wonkyclouds.js</a></li>
+		<li><a href="xpn.js">xpn.js</a></li>
+		<li><a href="zeotrope.js">zeotrope.js</a></li>
+		<br>
+		<li><a href="build.sh">build.sh</a></li>
+	</ul>
+	<footer style="background:rgba(0,0,0,0.1)">
+	<center><a style="color:#b5e853" href="../../../index.html">muSe Home</a></center>
+	</footer>
+</body>
+</html>

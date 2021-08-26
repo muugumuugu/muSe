@@ -9,9 +9,9 @@ $excluded = array( '.', '..', '.git', '.htaccess', '.htpasswd', 'covers','css','
 $width = '40%';
 ###themes
 ### "shore"
-###$backgroundimg = '../covers/bg_shore.jpg';$background = '#222';$accentfg = '#000';$accentbg = '#f9df5d';$menubg = '#cda453';$menushadow = '#ffdbaa';$gradient1 = '#1a1a1a';$gradient2 = '#444';$filebuttonfg = '#bbb';
+###$backgroundimg = '../covers/bg_shore.webp';$background = '#222';$accentfg = '#000';$accentbg = '#f9df5d';$menubg = '#cda453';$menushadow = '#ffdbaa';$gradient1 = '#1a1a1a';$gradient2 = '#444';$filebuttonfg = '#bbb';
 ###dark"
- $backgroundimg = '../covers/bg_dark.jpg';
+ $backgroundimg = '../covers/bg_dark.webp';
  $background = '#333';
  $accentfg = '#000';
  $accentbg = '#555';
@@ -21,7 +21,7 @@ $width = '40%';
  $gradient2 = '#444';
  $filebuttonfg = '#bbb';
 ### "forest"
-###$backgroundimg = '../covers/bg_forest.jpg';$background = '#556555';$accentfg = '#034'; $accentbg = '#a8f75e';$menubg = '#5e9748'; $menushadow = '#a9fa98'; $gradient1 = '#1a1a1a';$gradient2 = '#444'; $filebuttonfg = '#bbb';
+###$backgroundimg = '../covers/bg_forest.webp';$background = '#556555';$accentfg = '#034'; $accentbg = '#a8f75e';$menubg = '#5e9748'; $menushadow = '#a9fa98'; $gradient1 = '#1a1a1a';$gradient2 = '#444'; $filebuttonfg = '#bbb';
 if( isset( $_POST['password'] ) ) {
     if ( htmlspecialchars($password) == htmlspecialchars( $_POST['password'] ) ) {
         $_SESSION['authenticated'] = 'yes';
@@ -298,7 +298,7 @@ function loadPage( $song = '', $error = '', $songinfo = array() ) {
         $songtitle = 'No file playing';
         $songinfoalign = 'center';
         $songsrc = '';
-        $pagetitle = "Music";
+        $pagetitle = "ShoWer TiMe";
         $artist = '';
         $artistdisplay = 'none';
         $album = '';
@@ -344,11 +344,11 @@ function loadPage( $song = '', $error = '', $songinfo = array() ) {
     }
     echo <<<HTML
 <!doctype html>
-<html lang="en" prefix="og: http://ogp.me/ns#">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <title>{$pagetitle}</title>
-    <link href="../muse.ico" rel="icon">
+    <link href="../muse.png" rel="icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" id="viewport" />
     <script>
         function goToDir(dir) {

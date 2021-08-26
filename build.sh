@@ -1,19 +1,37 @@
-cd js/vizualizations
-bash ./build.sh
-cd ../
-for f in *.js; do uglifyjs "$f" -c -m -o "$f.min"; done
-for f in *.js.min; do mv $f ../../js/${f%.js.min}.js; done
-cd ../
-cd css
-for f in *.css; do uglifycss "$f" --output "$f.min"; done
-for f in *.css.min; do mv $f ../../css/${f%.css.min}.css; done
-cd ../
-cd php
-for f in *.php; do cp $f ../../php/; done
+cd ../;
+mkdir -p covers; mkdir -p css; mkdir -p html;mkdir -p js;mkdir -p js/vizualizer/vizualizations ;mkdir -p lyrics; mkdir -p music ;mkdir -p playlists; mkdir -p php; cd php; mkdir -p getid3; cd ../; mkdir -p bash/;
+cd builds/bash;
+for f in *.sh; do cp "$f" "../../bash/$f";done;
+bash ./vizualizations.sh;
+bash ./collectionupd.sh;
+cd ../js/vizualizer/vizualizations;
+cp -r  sketchtemplate ../../../../js/vizualizer/vizualizations/sketchtemplate;
+cd ../;
+cp -r assets ../../../js/vizualizer/assets;
+cd ../;
+for f in *.js; do uglifyjs "$f" -c -m -o "../../js/$f"; done;
+for d in $(ls */ -d); do mkdir -p "../../js/$d"; cd "$d" ; for f in *.js; do uglifyjs "$f" -c -m -o "../../../js/$d$f"; done; cd ../;done;
+cd ../css;
+for f in *.css; do uglifycss "$f" --output "$f.min"; done;
+for f in *.css.min; do mv $f ../../css/${f%.css.min}.css; done;
+cd ../php;
+for f in *.php; do cp $f ../../php/; done;
 cd getid3;
-for f in *.php; do cp $f ../../../php/getid3/; done
-cd ../../
-cd html
-for f in *.html; do minify "$f"  > "$f.min"; done
-for f in *.html.min; do mv $f ../../html/${f%.html.min}.html; done
-cd ../
+for f in *.php; do cp $f ../../../php/getid3/; done;
+cd ../../html;
+for f in $(ls  -I index.html); do minify "$f"  > "$f.min"; done;
+for f in *.html.min; do mv $f ../../html/${f%.html.min}.html; done;
+cd ../covers/;
+for f in $(ls -I index.html  --ignore=*.webp );do mogrify -format webp "$f" ;done;
+for f in *.webp; do cp "$f" ../../covers/; done;
+cd ../music/;
+for f in * ; do cp -r "$f" ../../music/; done;
+cd ../lyrics/;
+cp sample.lrc ../../lyrics/;
+cd ../playlists/;
+for f in *; do cp * ../../playlists; done;
+cd ../;
+minify muSeHome.html > ../index.html;
+cp muse.png ../;
+cd ../;
+#You Can Delete Build now;

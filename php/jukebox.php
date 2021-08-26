@@ -30,7 +30,7 @@
 ?><!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="/styles/home.css"><link rel="icon" href="../muse.ico">
+	<link rel="stylesheet" type="text/css" href="/styles/home.css"><link rel="icon" href="../muse.png">
 	<meta name="viewport" content="width=device-width">
 	<style>
 		li {list-style:none!important;}
@@ -54,7 +54,7 @@
 	</header>
 	<main><?php recursiveDI($musicDir); ?></main>
 	<audio controls><source></audio>
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+	<script src="../js/lib/jquery-2.1.4.js"></script>
 	<script>
 		let switchSrc = function(src) {
 			let $p = $('audio');
@@ -82,7 +82,7 @@
 				swap = false;
 				if (d[i].id.toLowerCase() > d[i + 1].id.toLowerCase()) {swap = true;break;}
 			}
-			if (swap) {d[i].parentNode.insertBefore(bdi + 1], d[i]);w = true;}
+			if (swap) {d[i].parentNode.insertBefore(d[i + 1], d[i]);w = true;}
 		  }
 		}
 		window.onload=function(){sortList();}

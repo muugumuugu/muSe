@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/styles/home.css"><link rel="icon" href="../muse.ico">
+<link rel="stylesheet" href="/styles/home.css"><link rel="icon" href="../muse.png">
 <style>footer{width:100%;position:fixed;bottom:0px;left:0px;right:0px;}header{position:fixed;top:0px;left:0px;right:0px;}audio{width:100%;}ul.flexnone{height:80%;position:fixed;top:100px;left:0px;right:0px;margin:0px;padding:0px;justify-content:center;}li{text-align:center;width:250px!important; border:dotted; border-width:0.3px; margin:8px;}</style>
 <?php
 $search_dir = '../music';

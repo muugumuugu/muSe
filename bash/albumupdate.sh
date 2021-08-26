@@ -1,0 +1,15 @@
+cd "../music/$1";
+ls *.mp3 >cat.txt;
+sed -i cat.txt -E -e  's|(.*) _ (.*)\.mp3|<li><a href="\1 _ \2.mp3">\2</a><details><summary>by</summary>\1<details></li>\\n|';
+main=$(cat  cat.txt);
+rm cat.txt;
+ttemp="${PWD##*/}";
+tt=$(sed -E -e 's/([A-Z])/ \1/g' <<<"${ttemp}");
+t=$(perl -ne 'print ucfirst' <<<"${tt}");
+th=$(echo "${t^^}");
+ptemplate="<!doctype html><html lang='en'>\n<head><meta charset='utf-8'>\n<title>{th}</title>\n<link rel='stylesheet' href='/styles/home.css'></head>\n<body><header><h1>{t}</h1></header>\n<ul>\n{main}</ul>\n</body></html>";
+p=$(sed   "s|{main}|${main}|" <<<"${ptemplate}");
+ptemp=$(sed -e"s|{t}|${t}|" <<<"${p}");
+page=$(sed -e "s|{th}|${th}|" <<<"${ptemp}");
+echo -e "$page" > index.html;
+cd ../../;
