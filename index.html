@@ -49,14 +49,14 @@
 	<li><a href="lyrics/">lyrics</a></li>
 	<details><summary>name & format</summary><textarea onclick="select()">songfilename.lrc</textarea></details>
 	<hr>
-	<li><a href="builds/covers/">covers/</a></li>
+	<li><a href="covers/">covers/</a></li>
 	<details><summary>naming</summary><p>id.webp</p></details>
 	<details><summary>format</summary><label for="webp">img in WEBP format</label>  <p id="webp"> place id.webp directly into covers folder</p><label for="other">other image formats</label><textarea>mogrify -format webp imagename</textarea></details>
 	<hr>
-	<li><a href="builds/css/">css/</a></li>
-	<li><a href="builds/html/">html/</a></li>
-	<li><a href="builds/js/">js/</a></li>
-	<li><a href="builds/php/">php/</a></li>
+	<li><a href="css/">css/</a></li>
+	<li><a href="html/">html/</a></li>
+	<li><a href="js/">js/</a></li>
+	<li><a href="php/">php/</a></li>
 	</ul></div>
 	<div>
 	<a href="muse.ico"><img src="muse.png" title="music icon" alt="muse"></a></div>
@@ -66,7 +66,7 @@
 	let piece=window.location.href.split('/');
 	piece.pop();
 	document.getElementById('url').innerHTML=piece.join('/')+'\/play.html?playlistid=id';
-	document.getElementById('jsonp').innerHTML=piece.join('/')+'\/play.html?playlistid={"dat":[--arr of song urls--]}';
+	document.getElementById('jsonp').innerHTML=piece.join('/')+'\/play.html?playlist={"dat":[--arr of song urls--]}';
 	document.getElementById('format').innerHTML=piece.join('/')+'\/music\/albumOrartistOrGenre\/SongName.mp3';
 	};
 	</script>

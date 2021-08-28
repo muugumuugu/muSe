@@ -26,8 +26,10 @@ for f in $(ls -I index.html  --ignore=*.webp );do mogrify -format webp "$f" ;don
 for f in *.webp; do cp "$f" ../../covers/; done;
 cd ../music/;
 for f in * ; do cp -r "$f" ../../music/; done;
+#cd ../bash/;
+#bash ./updlyrics;
 cd ../lyrics/;
-cp sample.lrc ../../lyrics/;
+cp *.lrc ../../lyrics/;
 cd ../playlists/;
 for f in *; do cp * ../../playlists; done;
 cd ../;
