@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<link rel="icon" href="muse.png">
+	<link rel="icon" href="muse.ico">
 	<title>./muSe</title>
 	<!---->
 	<meta property="og:title" content="muse" />
@@ -16,7 +16,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<!---->
 	<link rel="stylesheet" href="/styles/home.css">
-	<style>h2{display:inline;}body{width:100%;}div.flex{justify-content:center;width:100%;}label{font-style:italic;}li a,div li,summary{font-size:18px;font-weight:bold;}#main{width:80%}p,textarea{width:90%; height:18px; padding:10px!important; background:transparent; overflow-y:scroll; font-weight:bold; color:white;}ul li{margin-left:30px!important;}li details, details details{margin-left:50px!important;}p{border:groove; border-width:0.3px; margin:2px!important;}</style>
+	<style>body{width:100%;}div.flex{justify-content:center;width:100%;}label{font-style:italic;}li a,div li,summary{font-size:18px;}#main{width:80%}p,textarea{width:90%; height:18px; padding:10px!important; background:transparent; overflow-y:scroll; font-weight:bold; color:white;}details{margin-left:5%}p{border:groove; border-width:0.3px; margin:2px!important;}</style>
 </head>
 <body>
 	<header>
@@ -25,60 +25,39 @@
 	<div class="flex">
 	<div id="main"><ul>
 	<li><a  href="html/mat.html">Music Mat</a></li>
-	<li><a  href="html/play.html">Vizualizer</a>
+	<li><a  href="html/play.html">Vizualizer</a></li>
 	<details><summary>api</summary>
 		<textarea onclick="select()" id='url'></textarea>
 		<textarea onclick="select()" id='jsonp'></textarea>
 	</details>
-	<details><summary>Add a Vizualization</summary>
-		<p> Add ur sketch - P5 (<a href="js/vizualizer/vizualizations/sketchtemplate/template.js">template</a>) , pure-js , glsl, whatever may be into the sketches folder. and run</p>
-		<textarea onclick="select()">cd bash; bash ./addviz.js</textarea>
-	</details>
-	<ul>
-	<li><a href="html/play.html?playlistid=jukebox">Open Entire Collection As Playlist In Vizualizer</a></li>
-	</ul>
-	</li>
-	<li><a href="php/shower.php">Shower Time</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/">{served}</a></li>
-	<details><summary>Playlist Maker</summary>
+	<details><summary>Open Entire Collection As Playlist In Vizualizer</summary><p><a href="html/play.html?playlistid=jukebox">The Jukebox</a></p></details>
+	<li><a href="php/shower.php">Shower Time</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/shower.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/shower.php">{served over WAN}</a></li>
+	<li>Playlist Maker</li>
 		<details><summary>album windows</summary><p><a href="html/builder.html">naviGate through the map uRself</a></p></details>
-		<details><summary>all in one searchable stash</summary><p><a href="html/builder.html?=searchable">use RegEx to find sOng from oCean</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/html/builer.html?=searchable">{served}</a></p></details>
-	</details>
-	<li><a href="php/jukebox.php">regEx seArchAble player</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/jukebox.php" >{served}</a></li>
+		<details><summary>all in one searchable stash</summary><p><a href="html/builder.html?=searchable">use RegEx to find sOng from oCean</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/html/builer.html?=searchable">{served over LAN}</a> | <a href="https://muuigu.loca.lt/Desktop/muSe/html/builer.html?=searchable">{served overWLAN}</a>/p></details>
+	<li><a href="php/jukebox.php">regEx seArchAble player</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/jukebox.php" >{served over LAN}</a></li> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/jukebox.php" >{served over WAN}</a></li>
 	<hr>
-	<li><a href="music/">music/</a>
-	<details><summary><a href="bash/collectionupd.sh">Update Collection</a></summary><textarea onclick="select()">cd bash; bash ./collectionupd.sh; cd ../</textarea></details>
-	<details><summary>pick ur destination by walking thru dOOrs</summary><p><a href="php/one.php">SIngle File PlaYer</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/one.php" >{served}</a></p></details>
-	<details><summary>folder structure</summary> <p>currently majorly one level, folders sorted by album or artist name, or as genre mixbags. (camelCase, no spaces or quotes)</p><textarea onclick="select()">cd bash; bash ./albumupdate.sh dirname</textarea></details>
+	<li><a href="music/">music/</a></li>
+	<details><summary><a href="playlists/collection.sh">Update Juke Box</a></summary><textarea onclick="select()">chmod +x playlists/collection.sh; ./playlists/collection.sh</textarea></details>
+	<details><summary>pick ur destination by walking thru dOOrs</summary><p><a href="php/one.php">SIngle File PlaYer</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/one.php" >{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/one.php" >{served over LAN}</a></p></details>
+	<details><summary>folder structure</summary> <p>currently majorly one level, folders sorted by album or artist name, or as genre mixbags.</p></details>
 	<details><summary>song naming</summary><textarea onclick="select()">Vocal/Performance Artist (Composer) {Lyricist} [Instrumentalist] [~Vizualization Artist] _ Song Title.mp3</textarea></details>
-	</li>
-	<li><a href="playlists/">playlists/</a>
-	<details><summary><a href="bash/jukeupdate.sh">Update Juke Box</a></summary><textarea onclick="select()">cd bash; bash ./jukeupdate.sh; cd ../</textarea></details>
-	<details><summary><a href="bash/addpl.sh">Add Playlist</a></summary><textarea onclick="select()">cd bash; bash ./addpl.sh; cd ../</textarea></details>
-	<details><summary>playlist naming</summary><textarea onclick="select()">id.m3u</textarea><p>first line <i>EXTM3U : playlist-name</i></p></details>
-	<details><summary>in playlist url format, 1 song per 2 lines,<i> 2<sup>nd</sup></i> line -> <code>song-file-url</code>, <i>1<sup>st</sup></i> line -> <code> <i>#EXTINF: SongName</i></code></summary><label for="format">songs included in / added to music folder of this package</label><textarea onclick="select()"  id='format'></textarea><br>
+	<li><a href="playlists/">playlists/</a></li>
+	<details><summary>playlist naming</summary><textarea onclick="select()">id.m3u</textarea></details>
+	<details><summary>in playlist url format</summary><label for="format">songs included in / added to music folder of this package</label><textarea onclick="select()"  id='format'></textarea><br>
 	<label for="outside">for songs elsewhere ( directory name shouldn't have the string <code>music</code> ) in it</label> <p>absolutepath-to-song http or on ur local drive</p></details>
-	</li>
-	<li><a href="lyrics/">lyrics</a>
+	<li><a href="lyrics/">lyrics</a></li>
 	<details><summary>name & format</summary><textarea onclick="select()">songfilename.lrc</textarea></details>
-	</li>
-	<details><summary>covers</summary>
+	<hr>
+	<li><a href="covers/">covers/</a></li>
 	<details><summary>naming</summary><p>id.webp</p></details>
 	<details><summary>format</summary><label for="webp">img in WEBP format</label>  <p id="webp"> place id.webp directly into covers folder</p><label for="other">other image formats</label><textarea>mogrify -format webp imagename</textarea></details>
-	</details>
 	<hr>
-	<details><summary><h2>unwrapped build</h2></summary>
-	<hr>
-	<li><a href="builds/covers/">covers/</a></li>
-	<hr>
-	<li><a href="builds/css/">bash/</a></li>
-	<li><a href="builds/css/">css/</a></li>
-	<li><a href="builds/html/">html/</a></li>
-	<li><a href="builds/js/">js/</a></li>
-	<li><a href="builds/php/">php/</a></li>
-	</details>
-	</details>
-	</ul>
-	</div>
+	<li><a href="css/">css/</a></li>
+	<li><a href="html/">html/</a></li>
+	<li><a href="js/">js/</a></li>
+	<li><a href="php/">php/</a></li>
+	</ul></div>
 	<div>
 	<a href="muse.ico"><img src="muse.png" title="music icon" alt="muse"></a></div>
 	</div>
