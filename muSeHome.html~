@@ -54,15 +54,11 @@
 	<details><summary>naming</summary><p>id.webp</p></details>
 	<details><summary>format</summary><label for="webp">img in WEBP format</label>  <p id="webp"> place id.webp directly into covers folder</p><label for="other">other image formats</label><textarea>mogrify -format webp imagename</textarea></details>
 	<hr>
-	</ul>
-
 	<details><summary><a href="builds/">unwrapped codes</a></summary>
-	<ul>
 	<li><a href="css/">css/</a></li>
 	<li><a href="html/">html/</a></li>
 	<li><a href="js/">js/</a></li>
 	<li><a href="php/">php/</a></li>
-	</ul>
 	</details>
 	</div>
 	<div>
