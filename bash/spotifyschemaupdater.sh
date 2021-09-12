@@ -21,7 +21,7 @@ cat songs.lst>>songs.temp;
 echo ";" >> songs.temp;
 sed -n 4~8p songs.lst  >artists.lst
 awk '!a[$0]++' artists.lst > artists.lstfilter
-echo "delete from artists;INSERT into artists (id,title) VALUES" >artists.temp
+echo "delete from artists;INSERT into artists (id,name) VALUES" >artists.temp
 sed -i -E -e 's/(.*),$/(\1,\1),/' artists.lstfilter
 cat artists.lstfilter>>artists.temp;
 rm albums.lst
