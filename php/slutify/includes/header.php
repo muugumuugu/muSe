@@ -21,7 +21,7 @@ else {
 <html lang="en">
   <head>
 
-    <title>spoofyify</title>
+    <title>slutify</title>
 
     <link rel="stylesheet" type="text/css" href="includes/assets/css/style.css">
     <script src="includes/assets/js/jquery.min.js"></script>
