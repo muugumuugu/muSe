@@ -1,20 +1,20 @@
-ccf.m3u~EXTM3U : Cold Coffee wid a Straw
-dc.m3u~EXTM3U : Dark Chocolate and a Wet Pillow
-dd.m3u~EXTM3U : Dandelion
-dhup.m3u~EXTM3U : DoOooOOop
-ebn.m3u~EXTM3U : Earphone Blast Much Needed
-ff.m3u~EXTM3U : Floffy Floor
-imli.m3u~EXTM3U : Imli
-is.m3u~EXTM3U : Ice Shards
+playlistinfos["ccf"]="Cold Coffee wid a Straw";
+playlistinfos["dc"]="Dark Chocolate and a Wet Pillow";
+playlistinfos["dd"]="Dandelion";
+playlistinfos["dhup"]="DoOooOOop";
+playlistinfos["ebn"]="Earphone Blast Much Needed";
+playlistinfos["ff"]="Floffy Floor";
+playlistinfos["imli"]="Imli";
+playlistinfos["is"]="Ice Shards";
 playlistinfos["jukebox"]="JukeBox";
-ns.m3u~EXTM3U : Ned Slep
-pp.m3u~EXTM3U : Pitter Patter
-ptd.m3u~EXTM3U : Pouring to Drench
-sb.m3u~EXTM3U : Soda Bubbles
-scw.m3u~EXTM3U : Staircase Window
-sif.m3u~EXTM3U : Smoke is Fluff
-sp.m3u~EXTM3U : Sheuwuli Phoool
-swcl.m3u~EXTM3U : Leaning on citylights, gazing into starwinds
-tempmixtape.m3u~EXTM3U : temporary hyperfixation mixtape
-tm.m3u~EXTM3U : Trail Mix
-ub.m3u~EXTM3U : Under Banyan
+playlistinfos["ns"]="Ned Slep";
+playlistinfos["pp"]="Pitter Patter";
+playlistinfos["ptd"]="Pouring to Drench";
+playlistinfos["sb"]="Soda Bubbles";
+playlistinfos["scw"]="Staircase Window";
+playlistinfos["sif"]="Smoke is Fluff";
+playlistinfos["sp"]="Sheuwuli Phoool";
+playlistinfos["swcl"]="Leaning on citylights, gazing into starwinds";
+playlistinfos["tempmixtape"]="temporary hyperfixation mixtape";
+playlistinfos["tm"]="Trail Mix";
+playlistinfos["ub"]="Under Banyan";

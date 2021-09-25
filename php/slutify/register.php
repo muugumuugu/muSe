@@ -96,12 +96,11 @@
           </div>
 
           <div id="loginText">
-            <h1>Get GREAT MUSIC Here!</h1>
-            <h2>Listen to loads of songs for Free</h2>
+            <h1>slutify</h1>
+            <h2>only music. random music</h2>
             <ul>
-              <li>Dicover music for your favourite playlist</li>
-              <li>Search your songs easily!</li>
-              <li>Follow artists to kepp Up to Date</li>
+              <li>dicover music for your favourite playlist</li>
+              <li>search through songs easily</li>
             </ul>
           </div>
         </div>

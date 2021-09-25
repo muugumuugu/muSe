@@ -30,7 +30,7 @@
 ?><!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="/styles/home.css"><link rel="icon" href="../muse.png">
+	<link rel="stylesheet" type="text/css" href="/styles/home.css"><link rel="icon" href="../covers/appicons/jukebox-icon.png">
 	<meta name="viewport" content="width=device-width">
 	<style>
 		li {list-style:none!important;}

@@ -1,0 +1,2 @@
+delete from artists;INSERT into artists (id,name) VALUES
+("mogi","mogi"),

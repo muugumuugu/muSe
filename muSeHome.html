@@ -21,10 +21,15 @@
 <body>
 	<header>
 	<h1 style="font-size:28px;">./muSe</h1>
+	<hr>
+	<center>
+	<a href="https://musicalcurations.tumblr.com/">tumblr blog</a> <span class="divider"> || </span>
+	<a href="https://muuugu.loca.lt/Desktop/muSe/">tunneled site</a>
+	</center>
 	</header>
 	<div class="flex">
 	<div id="main"><ul>
-	<li><a  href="php/slutify">slutify</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/slutify.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/slutify">{served over WAN}</a></li>
+	<li><a  href="php/slutify">SlutiFy</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/slutify.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/slutify">{served over WAN}</a></li>
 	<li><a  href="html/mat.html">Music Mat</a></li>
 	<li><a  href="html/play.html">Vizualizer</a></li>
 	<details><summary>api</summary>
@@ -35,11 +40,13 @@
 	<li><a href="php/shower.php">Shower Time</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/shower.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/shower.php">{served over WAN}</a></li>
 	<li>Playlist Maker</li>
 		<details><summary>album windows</summary><p><a href="html/builder.html">naviGate through the map uRself</a></p></details>
-		<details><summary>all in one searchable stash</summary><p><a href="html/builder.html?=searchable">use RegEx to find sOng from oCean</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/html/builer.html?=searchable">{served over LAN}</a> | <a href="https://muuigu.loca.lt/Desktop/muSe/html/builer.html?=searchable">{served overWLAN}</a>/p></details>
+		<details><summary>all in one searchable stash</summary><p><a href="html/builder.html?=searchable">use RegEx to find sOng from oCean</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/html/builer.html?=searchable">{served over LAN}</a> | <a href="https://muuigu.loca.lt/Desktop/muSe/html/builer.html?=searchable">{served overWLAN}</a></p></details>
 	<li><a href="php/jukebox.php">regEx seArchAble player</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/jukebox.php" >{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/jukebox.php" >{served over WAN}</a></li>
 	<hr>
+	<li><details style="margin:0px;">
+	<summary>Library</summary>
 	<li><a href="music/">music/</a></li>
-	<details><summary><a href="playlists/collection.sh">Update Juke Box</a></summary><textarea onclick="select()">chmod +x playlists/collection.sh; ./playlists/collection.sh</textarea></details>
+	<details><summary><a href="bash/collection.sh">Update Juke Box</a></summary><textarea onclick="select()">chmod +x bash/collection.sh; ./bash/collection.sh</textarea></details>
 	<details><summary>pick ur destination by walking thru dOOrs</summary><p><a href="php/one.php">SIngle File PlaYer</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/one.php" >{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/one.php" >{served over LAN}</a></p></details>
 	<details><summary>folder structure</summary> <p>currently majorly one level, folders sorted by album or artist name, or as genre mixbags.</p></details>
 	<details><summary>song naming</summary><textarea onclick="select()">Vocal/Performance Artist (Composer) {Lyricist} [Instrumentalist] [~Vizualization Artist] _ Song Title.mp3</textarea></details>
@@ -53,20 +60,22 @@
 	<li><a href="covers/">covers/</a></li>
 	<details><summary>naming</summary><p>id.webp</p></details>
 	<details><summary>format</summary><label for="webp">img in WEBP format</label>  <p id="webp"> place id.webp directly into covers folder</p><label for="other">other image formats</label><textarea>mogrify -format webp imagename</textarea></details>
+	</details></li>
 	<hr>
-	</ul>
-
-	<details><summary><a href="builds/">unwrapped codes</a></summary>
+	<li><details style="margin:0px;">
+	<summary><a href="builds/">unwrapped codes</a></summary>
 	<ul>
 	<li><a href="css/">css/</a></li>
 	<li><a href="html/">html/</a></li>
 	<li><a href="js/">js/</a></li>
 	<li><a href="php/">php/</a></li>
 	</ul>
-	</details>
+	</details></li>
+	</ul>
+	<hr>
 	</div>
 	<div>
-	<a href="muse.ico"><img src="muse.png" title="music icon" alt="muse"></a></div>
+	<a href="muse.png"><img src="muse.png" title="music icon" alt="muse"></a></div>
 	</div>
 	<script>
 	window.onload=function(){

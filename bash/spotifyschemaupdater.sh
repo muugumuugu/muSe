@@ -3,13 +3,12 @@ rm albums.temp
 rm songs.temp
 rm artists.temp
 
-for f in $(ls */ -d) ; do echo -e "(\n'${f%/}',\n'${f%/}','covers/albumart/${f%}.webp'\n)," >>albums.lst ;done
-sed  -i -E -e 's/([A-Z])/ \1/g' albums.lst
-sed -i  "s/^'\(.\)/'\U\1/" albums.lst
+for f in $(ls */ -d) ; do
+albumNameTemp=$(sed  -E -e 's/([A-Z])/ \1/g' <<<"$f")
+albumName="${albumNameTemp^}"
+echo -e "(\n'${f%/}',\n'${albumName%/}','../../covers/albumart/${f%/}.webp'\n)," >>albums.lst ;done
 for d in $(ls */ -d) ; do cd "$d" ; for f in *.mp3; do
  dur=$(mediainfo --Output="General;%Duration%" "$f") ;durn=$(echo $((dur/1000))) ;echo -e "(\n"'"'$d$f'"'",\n"'"'${d%/}'"'",\n"'"'${f%.mp3}'"'",\n"'"'${f%.mp3}'"'",\n"'"'$durn'"'",\n"'"'$d$f'"'"," '"' "misc" '"' ")," "\n" >> ../songs.lst ;done;cd ..; done;
-sed  -i -E -e '3~8 s/([A-Z])/ \1/g' songs.lst
-sed -i  '3~8 s/^\(.\)/\U\1/' songs.lst
 sed  -i -E -e '4~8 s/(.*) _ .*/\1",/' songs.lst
 sed  -i -E -e '5~8 s/.* _ (.*)/"\1/' songs.lst
 sed  -i -E -e "7~8 s/,$//" songs.lst

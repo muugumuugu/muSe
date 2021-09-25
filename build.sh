@@ -3,7 +3,6 @@ mkdir -p covers; mkdir -p css; mkdir -p html;mkdir -p js;mkdir -p js/vizualizer/
 cd builds/bash;
 for f in *.sh; do cp "$f" "../../bash/$f";done;
 bash ./vizualizations.sh;
-bash ./collectionupd.sh;
 cd ../js/vizualizer/vizualizations;
 cp -r  sketchtemplate ../../../../js/vizualizer/vizualizations/sketchtemplate;
 cd ../;
@@ -26,7 +25,8 @@ for f in $(ls -I index.html  --ignore=*.webp );do mogrify -format webp "$f" ;don
 for f in *.webp; do cp "$f" ../../covers/; done;
 cd ../music/;
 for f in * ; do cp -r "$f" ../../music/; done;
-#cd ../bash/;
+cd ../bash/;
+bash ./collectionupd.sh;
 #bash ./updlyrics;
 cd ../lyrics/;
 cp *.lrc ../../lyrics/;

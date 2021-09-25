@@ -10,3 +10,4 @@ for d in $(ls */ -d) ; do cd ../bash ;bash ./albumupdate.sh "$d"; cd ../music;do
 cd ../bash;
 bash ./jukeupdate.sh;
 bash ./addpl.sh;
+bash ./spotifyschemaupdater.sh;

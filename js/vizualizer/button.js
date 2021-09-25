@@ -57,7 +57,7 @@ function load(){
 		if(!playlistid){playlistid="tempmixtape";tempplaylist=JSON.parse(decodeURI(params["playlist"])).dat;}
 		info=playlistinfos[playlistid];
 		covertile=document.getElementById("cvr");
-		covertile.src='../covers/' + playlistid + '.webp'
+		covertile.src='../covers/playlisticons/' + playlistid + '.webp'
 		title = info["name"] + "  ---  ";
 		covertile.focus();
 	}
