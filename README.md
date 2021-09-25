@@ -70,3 +70,9 @@
 ---
 
 ## Guide Map
+
++ development -- >
++ library -- >
+	+ [the git way](GUIDE.md)
+	+ drag and drop form
+		+ [upload your files here](http://localhost/Desktop/muSe/community/shelf/)
