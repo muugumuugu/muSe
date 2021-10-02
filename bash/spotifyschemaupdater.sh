@@ -8,7 +8,8 @@ albumNameTemp=$(sed  -E -e 's/([A-Z])/ \1/g' <<<"$f")
 albumName="${albumNameTemp^}"
 echo -e "(\n'${f%/}',\n'${albumName%/}','../../covers/albumart/${f%/}.webp'\n)," >>albums.lst ;done
 for d in $(ls */ -d) ; do cd "$d" ; for f in *.mp3; do
- dur=$(mediainfo --Output="General;%Duration%" "$f") ;durn=$(echo $((dur/1000))) ;echo -e "(\n"'"'$d$f'"'",\n"'"'${d%/}'"'",\n"'"'${f%.mp3}'"'",\n"'"'${f%.mp3}'"'",\n"'"'$durn'"'",\n"'"'$d$f'"'"," '"' "misc" '"' ")," "\n" >> ../songs.lst ;done;cd ..; done;
+ gen=$(id3v2 -l "$f" | grep -i "content type" | sed "s/^.*: //" | sed "s/ (.*$//")
+ dur=$(mediainfo --Output="General;%Duration%" "$f") ;durn=$(echo $((dur/1000))) ;echo -e "(\n"'"'$d$f'"'",\n"'"'${d%/}'"'",\n"'"'${f%.mp3}'"'",\n"'"'${f%.mp3}'"'",\n"'"'$durn'"'",\n"'"'$d$f'"'"," '"' $gen '"' ")," "\n" >> ../songs.lst ;done;cd ..; done;
 sed  -i -E -e '4~8 s/(.*) _ .*/\1",/' songs.lst
 sed  -i -E -e '5~8 s/.* _ (.*)/"\1/' songs.lst
 sed  -i -E -e "7~8 s/,$//" songs.lst

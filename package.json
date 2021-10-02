@@ -1,0 +1,17 @@
+{
+  "name": "simple-express-static-server-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "electron": "^15.0.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security"
+  }
+}
