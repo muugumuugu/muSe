@@ -1,0 +1,6 @@
+delete from albums;INSERT into albums (id,title,artworkPath) VALUES
+(
+'folderTemplate',
+'Folder Template','../../covers/albumart/folderTemplate.webp'
+),
+;

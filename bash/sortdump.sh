@@ -3,7 +3,6 @@ for d in $(ls -d */); do
 	album="../music/$d"
 	if [ ! -d "$album" ]; then
 		mkdir -p ../music/$d
-		mkdir -p ../musicstash/muse-min/$d
 		mkdir -p ../musicstash/forMP3/$d
 		mkdir -p ../musicstash/highq/$d
 		ls $d |sort -R |tail -1 |while read f; do
@@ -17,11 +16,12 @@ for d in $(ls -d */); do
 	fi
 	cd $d;
 	for f in *.mp3; do
+		gen=$(python ../../python/dump_genre.py "$f")
+		echo  '"'"../music/$d$f"'":' '"' "$gen"'",' >> "../../python/dumps"
 		lame -b64 "$f" "$f.min" ;
 		mv "$f" ../../musicstash/highq/$d -f;
 		rename 's/\.min//' *;
 		cp "$f" ../../music/$d -f
-		cp "$f" ../../musicstash/muse-min/$d -f
 		mv "$f" "../../musicstash/forMP3/$d/$f.min" -f
 		cd ../../musicstash/forMP3/$d
 		rename 's/(.*) _ (.*)\.mp3\.min/$2 _ $1.mp3/' * -f
