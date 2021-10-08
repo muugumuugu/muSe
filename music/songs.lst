@@ -1,4 +1,3 @@
-delete from songs; INSERT into songs(id,album,artist,title,duration,path,genre) VALUES
 (
 "50States/Sufjan",
 "50States",

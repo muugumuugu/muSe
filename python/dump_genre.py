@@ -23,7 +23,7 @@ def gettag(link):
 			if len(taglist)>0:
 				for tag in taglist:
 					tagstr.append(tag["name"])
-				return tagstr
+				return random.choice(tagstr)
 			else:
 				try:
 					album=re.sub(r"/.*","",track["album"]["title"])
@@ -33,7 +33,7 @@ def gettag(link):
 					rr = requests.get(alink).json()
 					return(albumtag(rr))
 				except:
-					return([])
+					return("")
 
 		except:
 			try:
@@ -43,11 +43,11 @@ def gettag(link):
 				rr = requests.get(alink).json()
 				return(albumtag(rr))
 			except:
-				return([])
+				return("")
 
 
 def albumtag(dat):
-	tagdef=[]
+	tagdef=""
 	try:
 		return [dat["album"]["tags"]["tag"][0]["name"]]
 	except:

@@ -1,4 +1,3 @@
-delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 '50States',
 '50 States','../../covers/albumart/50States.webp'
@@ -19,4 +18,3 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 'music',
 'Music','../../covers/albumart/music.webp'
 ),
-;

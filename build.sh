@@ -53,16 +53,15 @@ cp -r -p ./music ../
 cp -r -p ./lyrics ../
 cp -r -p ./playlists ../
 cp -r -p ./musicstash ../
+cp -r -p ./dat ../
+cp -r -p ./dump ../
 #----------------------------
 minify muSeHome.html > ../index.html;
 cp muse.png ../;
 cp electron-app.js ../;
 for f in *.json; do cp "$f" ../;done;
+for f in *.md; do cp "$f" ../;done;
 cd ../;
-#------------------------
-cd bash/;
-bash ./collectionupd.sh;
-#bash ./updlyrics;
 #----------------------------
 
-#You Can Delete Build now;
+echo "delete this folder safely, add music & then run bash scripts as in manual "

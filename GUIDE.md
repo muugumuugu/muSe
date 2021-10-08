@@ -41,7 +41,7 @@
 ---------------
 # snippets for me.
 ```bash
-git clone https://github.com/muugumuugu/muSe.git --branch shelvingarea --single-branch shelf --depth 1 shelf
+git clone https://github.com/muugumuugu/muSe.git --branch shelvingarea --single-branch  --depth 1 shelf
 cd shelf
 ```
 

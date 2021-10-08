@@ -2,21 +2,21 @@ import json
 import requests
 import sys
 import re
+import urllib.parse
 from  get_genre import *
-import random
 # Opening JSON file
-f = open('../../python/list-genres.json')
+f = open('../dat/genrelookup.json')
 
 # returns JSON object as a dictionary
 data = json.load(f)
 
 
-track=re.sub(r'.* _ (.*)\.mp3',r"\1",sys.argv[1]).strip().replace(" " ,"%20")
+track=urllib.parse.quote(re.sub(r'.* _ (.*)\.mp3',r"\1",sys.argv[1]).strip())
 artists=re.sub(r'^(.*) _ .*',r"\1",sys.argv[1])
-artist=re.sub(r'\(.*','',re.sub('\{.*','',re.sub(r',.*',"",artists))).strip().replace(" " ,"%20")
+artist=urllib.parse.quote(re.sub(r'\(.*','',re.sub('\{.*','',re.sub(r',.*',"",artists))).strip())
 try:
 	if len(data[sys.argv[1]])>0:
-		print(random.choice(data[sys.argv[1]]))
+		print(data[sys.argv[1]])
 	else:
 		print(gettag(tracklink(artist,track)))
 except:

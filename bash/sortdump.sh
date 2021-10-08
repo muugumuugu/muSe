@@ -2,28 +2,31 @@ cd ../dump
 for d in $(ls -d */); do
 	album="../music/$d"
 	if [ ! -d "$album" ]; then
+		mkdir -p ../dat/music/$d
 		mkdir -p ../music/$d
-		mkdir -p ../musicstash/forMP3/$d
+		mkdir -p ../musicstash/forMP3player/$d
 		mkdir -p ../musicstash/highq/$d
-		ls $d |sort -R |tail -1 |while read f; do
-			echo $f;
+		#ls $d |sort -R |tail -1 |while read f; do
+			#echo $f;
 			#eyeD3 --write-images=$d "$d$f"  #writes covers from id3 tags
 			#ffmpeg -i "$d$f" "$d.jpg"
-			python ../python/big.py --limit 1 -o "$d" -s "$d Music ALbum Artist"
+		python ../python/big.py --limit 1 -o "$d" -s "$d Music ALbum Artist"
 
-		done;
+		#done;
 		  # Control will enter here if $DIRECTORY doesn't exist.
 	fi
 	cd $d;
 	for f in *.mp3; do
 		gen=$(python ../../python/dump_genre.py "$f")
-		echo  '"'"../music/$d$f"'":' '"' "$gen"'",' >> "../../python/dumps"
+		echo  '"'"../music/$d$f"'":' '"'"$gen"'",' >> "../../dat/dumps-genre.json"
+		echo  '"'"../music/$d$f"'"%' '"'"$gen"'",' >> "../../dat/dumps-genre.csv"
+		cp "$f" "../../dat/music/$d" -f
 		lame -b64 "$f" "$f.min" ;
 		mv "$f" ../../musicstash/highq/$d -f;
-		rename 's/\.min//' *;
+		rename 's/\.min//' * -f;
 		cp "$f" ../../music/$d -f
-		mv "$f" "../../musicstash/forMP3/$d/$f.min" -f
-		cd ../../musicstash/forMP3/$d
+		mv "$f" "../../musicstash/forMP3player/$d$f.min" -f
+		cd ../../musicstash/forMP3player/$d
 		rename 's/(.*) _ (.*)\.mp3\.min/$2 _ $1.mp3/' * -f
 		cd ../../../dump/$d
 	done;

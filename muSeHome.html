@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<link rel="icon" href="muse.ico">
+	<link rel="icon" href="muse.png">
 	<title>./muSe</title>
 	<!---->
 	<meta property="og:title" content="muse" />
@@ -24,12 +24,15 @@
 	<hr>
 	<center>
 	<a href="https://musicalcurations.tumblr.com/">tumblr blog</a> <span class="divider"> || </span>
-	<a href="https://muuugu.loca.lt/Desktop/muSe/">tunneled site</a>
+	<a href="https://muuugu.loca.lt/Desktop/muSe/">tunneled site</a> || </span>
+	<a href="https://muugumuugu.github.io/muSe/">github.io site</a> || </span>
+	<a href="https://github.com/muugumuugu/muSe/#readme">git repo</a>
 	</center>
 	</header>
 	<div class="flex">
 	<div id="main"><ul>
 	<li><a  href="php/stitchify">stitchify</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/stitchify.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/stitchify">{served over WAN}</a></li>
+	<li><a  href="html/radio.html">Song Chain Generator Radio</a></li>
 	<li><a  href="html/mat.html">Music Mat</a></li>
 	<li><a  href="html/play.html">Vizualizer</a></li>
 	<details><summary>api</summary>
@@ -40,17 +43,20 @@
 	<li><a href="php/shower.php">Shower Time</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/shower.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/shower.php">{served over WAN}</a></li>
 	<li>Playlist Maker</li>
 		<details><summary>album windows</summary><p><a href="html/builder.html">naviGate through the map uRself</a></p></details>
-		<details><summary>all in one searchable stash</summary><p><a href="html/builder.html?=searchable">use RegEx to find sOng from oCean</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/html/builer.html?=searchable">{served over LAN}</a> | <a href="https://muuigu.loca.lt/Desktop/muSe/html/builer.html?=searchable">{served overWLAN}</a></p></details>
+		<details><summary>all in one searchable stash</summary><p><a href="html/builder.html?=searchable">use RegEx to find sOng from oCean</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/html/builer.html?=searchable">{served over LAN}</a> | <a href="https://muuigu.loca.lt/Desktop/muSe/html/builer.html?=searchable">{served overWLAN}</a>/p></details>
 	<li><a href="php/jukebox.php">regEx seArchAble player</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/jukebox.php" >{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/jukebox.php" >{served over WAN}</a></li>
+	<li><a href="php/downloader.php">Easy Downloader + Multi-AUdio Streamer</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/downloader.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/downloader.php">{served over WAN}</a></li>
 	<hr>
 	<li><details style="margin:0px;">
 	<summary>Library</summary>
+	<ul>
 	<li><a href="music/">music/</a></li>
-	<details><summary><a href="bash/collection.sh">Update Juke Box</a></summary><textarea onclick="select()">chmod +x bash/collection.sh; ./bash/collection.sh</textarea></details>
+	<details><summary><a href="bash/collectionupd.sh">Update Juke Box</a></summary><textarea onclick="select()">cd bash; bash collectionupd.sh</textarea></details>
 	<details><summary>pick ur destination by walking thru dOOrs</summary><p><a href="php/one.php">SIngle File PlaYer</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/one.php" >{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/one.php" >{served over LAN}</a></p></details>
 	<details><summary>folder structure</summary> <p>currently majorly one level, folders sorted by album or artist name, or as genre mixbags.</p></details>
 	<details><summary>song naming</summary><textarea onclick="select()">Vocal/Performance Artist (Composer) {Lyricist} [Instrumentalist] [~Vizualization Artist] _ Song Title.mp3</textarea></details>
 	<li><a href="playlists/">playlists/</a></li>
+	<details><summary><a href="bash/addpl.sh">add a playlist</a></summary><textarea onclick="select()">cd bash ; bash addpl.sh</textarea></details>
 	<details><summary>playlist naming</summary><textarea onclick="select()">id.m3u</textarea></details>
 	<details><summary>in playlist url format</summary><label for="format">songs included in / added to music folder of this package</label><textarea onclick="select()"  id='format'></textarea><br>
 	<label for="outside">for songs elsewhere ( directory name shouldn't have the string <code>music</code> ) in it</label> <p>absolutepath-to-song http or on ur local drive</p></details>
@@ -60,19 +66,36 @@
 	<li><a href="covers/">covers/</a></li>
 	<details><summary>naming</summary><p>id.webp</p></details>
 	<details><summary>format</summary><label for="webp">img in WEBP format</label>  <p id="webp"> place id.webp directly into covers folder</p><label for="other">other image formats</label><textarea>mogrify -format webp imagename</textarea></details>
-	</details></li>
 	<hr>
+	<li><a href="dat">data sets</a></li>
+	<li><a href="dump">dump</a></li>
+	<hr>
+	</ul>
+	</details>
 	<li><details style="margin:0px;">
 	<summary><a href="builds/">unwrapped codes</a></summary>
 	<ul>
 	<li><a href="css/">css/</a></li>
+	<li><a href="ejs/">ejs/</a></li>
+	<li><a href="go/">go/</a></li>
 	<li><a href="html/">html/</a></li>
 	<li><a href="js/">js/</a></li>
 	<li><a href="php/">php/</a></li>
+	<li><a href="python/">python/</a></li>
 	</ul>
 	</details></li>
+	<hr>
+	<li><details style="margin:0px;">
+	<summary><a href="community/">Community</a></summary>
+	<ul>
+	<li><a href="community/blog">blog</a>
+	<li><a href="community/dev">dev</a>
+	<li><a href="community/guides">guides</a>
+	<li><a href="community/shelf">shelf</a>
 	</ul>
 	<hr>
+	</details></li>
+	</ul>
 	</div>
 	<div>
 	<a href="muse.png"><img src="muse.png" title="music icon" alt="muse"></a></div>
