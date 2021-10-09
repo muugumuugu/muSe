@@ -6,12 +6,8 @@ mkdir -p js;mkdir -p js/vizualizer/vizualizations ;
 mkdir -p lyrics;
 mkdir -p music ;
 mkdir -p playlists;
-mkdir -p php;
-mkdir -p bash/;
 #------------------------------------
 cd builds/bash;
-for f in *.sh; do cp "$f" "../../bash/$f";done;
-#------------------------------------
 bash ./vizualizations.sh;
 cd ../js/vizualizer/vizualizations;
 cp -r  sketchtemplate ../../../../js/vizualizer/vizualizations/sketchtemplate;
@@ -19,6 +15,8 @@ cd ../;
 cp -r assets ../../../js/vizualizer/assets;
 cd ../;
 #......
+minify "index.html"  > ../../js/index.html;
+cp README.md ../../covers/
 for f in *.js; do uglifyjs "$f" -c -m -o "../../js/$f"; done;
 for d in $(ls */ -d); do
 	mkdir -p "../../js/$d";
@@ -27,14 +25,19 @@ for d in $(ls */ -d); do
 done;
 #_---------------------------------
 cd ../css;
+minify "index.html"  > ../../css/index.html;
+cp README.md ../../covers/
 for f in *.css; do uglifycss "$f" --output "$f.min"; done;
 for f in *.css.min; do mv $f ../../css/${f%.css.min}.css; done;
 #---------------------------------
 cd ../html;
-for f in $(ls  -I index.html); do minify "$f"  > "$f.min"; done;
+cp README.md ../../html/
+for f in *.html; do minify "$f"  > "$f.min"; done;
 for f in *.html.min; do mv $f ../../html/${f%.html.min}.html; done;
 #------------------------------
 cd ../covers/;
+minify "index.html"  > ../../covers/index.html;
+cp README.md ../../covers/
 for d in */; do
 	mkdir -p ../../covers/$d
 	cd $d;
@@ -44,6 +47,8 @@ for d in */; do
 done;
 #---------------------------
 cd ../;
+#_--------------------------
+cp -r -f ./bash ../;
 cp -r -f ./php ../;
 cp -r -f ./ejs ../;
 cp -r -f ./go ../;

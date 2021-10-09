@@ -34,12 +34,21 @@
 	<li><a  href="php/stitchify">stitchify</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/stitchify.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/stitchify">{served over WAN}</a></li>
 	<li><a  href="html/radio.html">Song Chain Generator Radio</a></li>
 	<li><a  href="html/mat.html">Music Mat</a></li>
+	<li><a  href="html/forrest.html">Song Forrest Drive</a></li>
+	<li><a  href="html/drawers.html">Music Planets</a></li>
 	<li><a  href="html/play.html">Vizualizer</a></li>
 	<details><summary>api</summary>
 		<textarea onclick="select()" id='url'></textarea>
 		<textarea onclick="select()" id='jsonp'></textarea>
+		<textarea onclick="select()" id='filep'></textarea>
 	</details>
 	<details><summary>Open Entire Collection As Playlist In Vizualizer</summary><p><a href="html/play.html?playlistid=jukebox">The Jukebox</a></p></details>
+	<li><a  href="html/player_simple.html">M3U player</a></li>
+	<details><summary>api</summary>
+		<textarea onclick="select()" id='url2'></textarea>
+		<textarea onclick="select()" id='jsonp2'></textarea>
+		<textarea onclick="select()" id='filep2'></textarea>
+	</details>
 	<li><a href="php/shower.php">Shower Time</a> | <a href="http://mogimogilenovo.ooguy.com/Desktop/muSe/php/shower.php">{served over LAN}</a> | <a href="https://muuugu.loca.lt/Desktop/muSe/php/shower.php">{served over WAN}</a></li>
 	<li>Playlist Maker</li>
 		<details><summary>album windows</summary><p><a href="html/builder.html">naviGate through the map uRself</a></p></details>
@@ -104,8 +113,12 @@
 	window.onload=function(){
 	let piece=window.location.href.split('/');
 	piece.pop();
-	document.getElementById('url').innerHTML=piece.join('/')+'\/play.html?playlistid=id';
-	document.getElementById('jsonp').innerHTML=piece.join('/')+'\/play.html?playlist={"dat":[--arr of song urls--]}';
+	document.getElementById('url').innerHTML=piece.join('/')+'\/html/play.html?playlistid=id';
+	document.getElementById('jsonp').innerHTML=piece.join('/')+'\/html/play.html?playlist={"dat":[--arr of song urls--]}';
+	document.getElementById('filep').innerHTML=piece.join('/')+'\/html/play.html?fname=absoluteURLofM3U&cover=absoluteURLofcover&title=playlisttitlr';
+	document.getElementById('url2').innerHTML=piece.join('/')+'\/html/play_simple.html?playlistid=id';
+	document.getElementById('jsonp2').innerHTML=piece.join('/')+'\/html/player_simple.html?playlist={"dat":[--arr of song urls--]}';
+	document.getElementById('filep2').innerHTML=piece.join('/')+'\/html/play_simple.html?fname=absoluteURLofM3U&cover=absoluteURLofcover&title=playlisttitlr';
 	document.getElementById('format').innerHTML=piece.join('/')+'\/music\/albumOrartistOrGenre\/SongName.mp3';
 	};
 	</script>

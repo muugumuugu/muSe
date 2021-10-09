@@ -3,7 +3,7 @@
 	+ copy the link to your fork repo, most probably ```https://github.com/username/muSe.git```
 	+ go to bash and execute
 		```bash
-		git clone --depth 1 --branch shelvingarea --single-branch link-to-your-fork muSeshelf
+		git clone --depth 1 --branch community --single-branch link-to-your-fork muSeshelf
 		cd muSeshelf
 		git checkout -b contribution-by-your-username-date
 		```
@@ -23,13 +23,13 @@
 			```
 		+ Visit your repo and Create a Pull request.
 			+ ![]
-			+ choose the base as muSe/shelvingarea and
+			+ choose the base as muSe/community and
 			+ write a message and confirm creating a pull request.
 	+ to keep the shelf maintained i keep removing files from there into the music folder, so it would be advisable to add my repo as another remote, and to fetch from it time to time.
-		+ git pull remote shelvingarea
+		+ git pull remote community
 	+ you can create a new branch from here again, that's best git practice
 		```
-		git checkout shelvingarea
+		git checkout community
 		git checkout -b contribution-by-your-username-newdate
 		git branch -d  contribution-by-your-username-olddate
 		```
@@ -41,14 +41,8 @@
 ---------------
 # snippets for me.
 ```bash
-git clone https://github.com/muugumuugu/muSe.git --branch shelvingarea --single-branch  --depth 1 shelf
-cd shelf
-```
-
-```
-git add .
-git commit -m "msg"
-git push
+git clone https://github.com/muugumuugu/muSe.git  --single-branch  --branch community --depth 1 community-temp
+cd community-temp
 ```
 --------------
 

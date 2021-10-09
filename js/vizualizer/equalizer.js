@@ -8,7 +8,8 @@ let sketcheq = function(p) {
 	let amp;
 	p.preload=function(){
 		if(tempplaylist){filee=tempplaylist;}
-		else if(playlistid){filee=p.loadStrings("../playlists/"+playlistid +".m3u")};
+		else if(playlistid){filee=p.loadStrings("../playlists/"+playlistid +".m3u");}
+		else if(FNAME){filee=p.loadStrings(decodeURI(FNAME));}
 	}
 	p.setup=function(){
 		mainUI();

@@ -14,6 +14,7 @@ buttonImgdata={
 let covertile;
 //-------------------------------
 let info;
+let FNAME;
 let tempplaylist;
 let playlistid;
 let soundmode=1;//0 mic,1 audiosrc
@@ -54,12 +55,16 @@ function load(){
 	let params=parseparams(window.location.href);
 	if (params){
 		playlistid=params["playlistid"];
-		if(!playlistid){playlistid="tempmixtape";tempplaylist=JSON.parse(decodeURI(params["playlist"])).dat;}
+		if(!playlistid && params.playlist){playlistid="tempmixtape";tempplaylist=JSON.parse(decodeURI(params["playlist"])).dat;}
+		else if(params.fname){FNAME=params.fname;}
 		info=playlistinfos[playlistid];
 		covertile=document.getElementById("cvr");
-		covertile.src='../covers/playlisticons/' + playlistid + '.webp'
-		title = info["name"] + "  ---  ";
-		covertile.focus();
+		if (params.cover){covertile.src=decodeURI(params.cover);}
+		else{covertile.src='../covers/playlisticons/' + playlistid + '.webp';}
+
+		if (params.title){title =decodeURI(params.title) + ' --- ';}
+		else{title = info["name"] + "  ---  ";}
+		//covertile.focus();
 	}
 	else{
 		document.getElementById("playingtab").style.display="none";

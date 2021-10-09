@@ -75,4 +75,22 @@
 + library -- >
 	+ [the git way](GUIDE.md)
 	+ drag and drop form
-		+ [upload your files here](http://localhost/Desktop/muSe/community/shelf/)
+		+ [upload your files here](https://muuugu.loca.lt/Desktop/muSe/community/shelf/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!----EOF------>
