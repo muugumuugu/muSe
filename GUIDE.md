@@ -40,13 +40,22 @@
 
 ---------------
 # snippets for me.
+
+## contributions
+
 ```bash
 git clone https://github.com/muugumuugu/muSe.git  --single-branch  --branch community --depth 1 community-temp
 cd community-temp
 ```
---------------
 
-# dump adder
+## code
+
+```bash
+git add '/home/muku/Desktop/muSe/builds' '/home/muku/Desktop/muSe/community' '/home/muku/Desktop/muSe/bash' '/home/muku/Desktop/muSe/covers' '/home/muku/Desktop/muSe/css' '/home/muku/Desktop/muSe/dat' '/home/muku/Desktop/muSe/dump' '/home/muku/Desktop/muSe/ejs' '/home/muku/Desktop/muSe/go' '/home/muku/Desktop/muSe/html' '/home/muku/Desktop/muSe/js' '/home/muku/Desktop/muSe/lyrics' '/home/muku/Desktop/muSe/php' '/home/muku/Desktop/muSe/playlists' '/home/muku/Desktop/muSe/python' '/home/muku/Desktop/muSe/index.html' '/home/muku/Desktop/muSe/electron-app.js' '/home/muku/Desktop/muSe/package.json' '/home/muku/Desktop/muSe/package-lock.json' '/home/muku/Desktop/muSe/GUIDE.md' '/home/muku/Desktop/muSe/README.md' '/home/muku/Desktop/muSe/TODO.md' '/home/muku/Desktop/muSe/.gitignore' '/home/muku/Desktop/muSe/muse.png' '/home/muku/Desktop/muSe/_config.yml'
 ```
+
+## dump adder
+
+``` bash
 git backup
 ```

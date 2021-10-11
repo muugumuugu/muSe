@@ -87,11 +87,11 @@ function mouseReleased(){
 function makensavepl(pllst){
   let plarr=[];
   pljson.data=[];
-  for (let i=0; i<15 && i<pllst.length;i++){
+  for (let i=0;  i<pllst.length;i++){
 	let s=pllst[i]
     plarr.push("#EXTINF: " + s.data.replace(/.*_ /,'').replace('.mp3',''));
     plarr.push('music/' + s.data);
-    pljson.data.push('"'+encodeURI('music/' + s.data) +'"');
+   if (i<15) {pljson.data.push('"'+encodeURI('music/' + s.data) +'"');}
   }
   const fn=prompt('File Name');
   if (fn) saveStrings(plarr,fn,'m3u')

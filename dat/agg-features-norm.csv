@@ -155,6 +155,11 @@ file_name,spectral,signal
 "billWurtz/Bill Wurtz _ History of the Entire Eorld, I Guess.mp3",0.9495170443520432,0.2724667303116168
 "billWurtz/Bill Wurtz _ La de da de da.mp3",0.9644060017782201,0.3076288502040073
 "billWurtz/Bill Wurtz _ Might Quit.mp3",0.9649177421132806,0.2359337056521909
+"bisteeProof/Bambu Sauce _ Vazeer e azam.mp3",0.9204076297144526,0.5997461037888662
+"bisteeProof/Bumbu Sauce _ Bunnayn-za.mp3",0.9603928546401871,0.11619602751314125
+"bisteeProof/Bumbu Sauce _ Jiggernaut.mp3",0.985050890963044,0.4786576055709231
+"bisteeProof/Bumbu Sauce _ Mojambo.mp3",0.9636527345576318,0.39745390990333906
+"bisteeProof/Bumbu Sauce _ My Punjabi Love for you.mp3",0.964417212808927,0.4367344450218613
 "blackEyedPeas/The Black Eyed Peas _ Fergalicious.mp3",0.96890641597382,0.3469615247661913
 "blackEyedPeas/The Black Eyed Peas _ London Bridge.mp3",0.9250228742074977,0.14224651814707928
 "blackEyedPeas/The Black Eyed Peas _ Shut Up.mp3",0.9544087797890018,0.3087652128907248
@@ -427,6 +432,13 @@ file_name,spectral,signal
 "gajendraVerma/Gajendra Verma _ Tune Mere Jana.mp3",0.9073217854864228,0.0030009746287343216
 "gangsOfWasseypur/Khushboo Raaj (Sneha Khanwalkar) {Varun Grover} _ O Womaniya.mp3",0.9719768168269124,0.21202671560438877
 "gangsOfWasseypur/Manoj Tiwari (Sneha Khanwalkar) {Varun Grover} _ Jiya Tu Bihar Ke Lala.mp3",0.9264333954750009,0.029173046566638258
+"ghanchakar/Altaf Raja, Amit Trivedi (Amit Trivedi) {Amitabh Bhattacharya} _ Jholu Ram.mp3",0.9497523580965785,0.17653663078665077
+"ghanchakar/Amit Trivedi (Amit Trivedi) {Amitabh Bhattacharya} _ Ghanchakkar Babu.mp3",0.9593013900982242,0.07975265557254757
+"ghanchakar/Divya Kumar, Amit Trivedi (Amit Trivedi) {Amitabh Bhattacharya} _ Allah Meherbaan.mp3",0.9625824945847363,0.21672513162404108
+"ghanchakar/Richa Sharma (Amit Trivedi){Amitabh Bhattacharya} _ Lazy Lad.mp3",0.936706036676313,0.11605157268554255
+"gulzar/Gulzar {Gulzar} _ Pyar kabhi ik Tarfa hota hai na Hoga.mp3",0.8765388678910865,0.021740817603270336
+"gulzar/Gulzar {Gulzar} _ Uski Gali.mp3",0.9352794059684904,0.03906759791375955
+"gulzar/Gulzar {Gulzar} _ Ye Khel Aankhir Kisliye.mp3",0.9550762985808515,0.07656789946027745
 "hariharan/Hariharan, Alka Yagnik, A.R. Rahman, Mohammed Aslam (AR Rahman) {Gulzar} _ Ay Hairathe.mp3",0.9402535730085492,0.19595266184470816
 "hariharan/Hariharan (AR Rahman) {P K Misra} _ Sun Ri Sakhi.mp3",0.9617687699314196,0.5636482844326519
 "hariharan/Hariharan (Lalitya Munshaw, Ranjit Barot) {Raajesh Johri} _ Conversation (More Ghar).mp3",0.952645755555788,0.03304392125807356
@@ -667,9 +679,9 @@ file_name,spectral,signal
 "kailasa/Kailash Kher _ Kaisi Hai Ye Udaasi.mp3",0.9026355873146551,0.01264458909734829
 "kaiPoChe/Amit Trivedi, Mohan Kanan (Amit Trivedi) {Swanand Kirkire} _ Manjha.mp3",0.9600865830529477,0.1255931362071548
 "kaiPoChe/Shruti Pathak, Divya Kumar (Amit Trivedi) {Swanand Kirkire} _ Shubhaarambh.mp3",0.9625934528681889,0.19461885712960916
-"kaminey/Kunal Ganjawala, Sunidhi Chauhan, Rekha Bhardwaj, Suresh Wadkar, Earl (Vishal Bhardwaj) {Gulzar Music} _ Raat ke Dhai Baje.mp3",0.9664889026659067,0.44981487214781224
+"kaminey/Kunal Ganjawala, Sunidhi Chauhan, Rekha Bhardwaj, Suresh Wadkar, Earl (Vishal Bhardwaj) {Gulzar} _ Raat ke Dhai Baje.mp3",0.9664889026659067,0.44981487214781224
 "kaminey/Sukhwinder Singh, Vishal Dadlani, Robert Bob Omulo (Vishal Bharadwaj) {Gulzar} _ Dhan Te Nan.mp3",0.8590298810019185,0.2762002712538068
-"kaminey/(Vishal Bhardwaj) _ Kaminey.mp3",0.9044372848102642,0.059295895509934596
+"kaminey/Vishal Bhardwaj (Vishal Bhardwaj) {Gulazar} _ Kaminey.mp3",0.9044372848102642,0.059295895509934596
 "kanishkSeth/Kanishk Seth _ Gum Huye Hum.mp3",0.9646600977046151,0.05389873628616696
 "kanishkSeth/Kanishk Seth, Kavita Seth _ Rangi Saari.mp3",0.9460119073783748,0.0026139351809953203
 "kanishkSeth/Kanishk Seth _ Thehra.mp3",0.9377230199531049,0.03754047891420371
@@ -1129,7 +1141,7 @@ file_name,spectral,signal
 "satyajitRay/Anup Ghoshal (Satyajit Ray) _ Ese Hirak Deshay.mp3",0.9785951668783863,0.109697158449935
 "satyajitRay/Anup Ghoshal (Satyajit Ray) _ Mora Dujonbhayra Bhai.mp3",0.9718425595741422,0.10514200983257824
 "satyajitRay/Anup Ghoshal (Satyajit Ray) _ Paye Pori Baagh Mama.mp3",0.9633932122777806,0.10355403808544095
-"satyajitRay/Kamu Mukhopadhyay, Jahar Roy _ (Satyajit Ray) _ Halla choleche juddhe.mp3",0.9600620107578213,0.02967598172144769
+"satyajitRay/Kamu Mukhopadhyay, Jahar Roy (Satyajit Ray) _ Halla choleche juddhe.mp3",0.9600620107578213,0.02967598172144769
 "satyajitRay/Prithwidev Bhattacharyya _ Gupi Bagha - Sarod Tribute.mp3",0.982412431455129,0.13463829216773665
 "satyajitRay/Satyajit Ray _ Felu Kela Mukul Is Hypnotised The Camel Ride Camels And Train Playout.mp3",0.9341882032217035,0.07692457206456521
 "satyajitRay/Satyajit Ray _ Pather Panchali BGM.mp3",0.9459203352859423,0.1484172010473917
