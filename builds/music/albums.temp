@@ -1,0 +1,22 @@
+delete from albums;INSERT into albums (id,title,artworkPath) VALUES
+(
+'50States',
+'50 States','../../covers/albumart/50States.webp'
+),
+(
+'aankhonDekhi',
+'Aankhon Dekhi','../../covers/albumart/aankhonDekhi.webp'
+),
+(
+'aashiqui2',
+'Aashiqui2','../../covers/albumart/aashiqui2.webp'
+),
+(
+'folderTemplate',
+'Folder Template','../../covers/albumart/folderTemplate.webp'
+),
+(
+'music',
+'Music','../../covers/albumart/music.webp'
+),
+;
