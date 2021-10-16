@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/matter.css">
+    <script src="js/matter.js"></script>
+</head>
+<body>
+<audio controls src="public/dream.mp3" id="current"></audio>
+<ul  id="links">
+	<% songs.forEach((item)=>{itemlink=item.replace(/.*music\//,'');itemtxt=item.replace(/.*_ /,'').replace(".mp3","");%>
+	<li>
+	<button class="songs" onclick="switcher(event)" id="<%=itemlink%> ">
+	<%=itemtxt%>
+	</button>
+	</li>
+	<%});%>
+</ul>
+<div id="playlists">
+<% pls.forEach((item)=>{itemlink=item.replace(/.*playlisticons\//,'/playlisticons/');%>
+	<div>
+	<img class="pls" onclick="addtopl(event)" id="<%=itemlink%>" src="<%=itemlink%>"/>
+	</div>
+	<%});%>
+</div>
+</body>
+</html>

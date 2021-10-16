@@ -1,0 +1,4 @@
+musicstash/
+community/\.git
+builds/\.git
+node_modules/

@@ -1,0 +1,3 @@
+=REGEX(A2,".*/","") --> album
+=REGEX(B2," _.*","") --> artist
+=REGEX(REGEX(B2,".*_ ",""),"\.mp3","")-->title

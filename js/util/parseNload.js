@@ -1,0 +1,1 @@
+function parseplaylist(l){let r=[];var a=/music.*\/(.*)/;for(let t=0;t<l.length;t++){let e=decodeURI(l[t]);var c=e.match(a);c&&r.push([c[1],c[0]])}return r}
