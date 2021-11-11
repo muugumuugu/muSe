@@ -337,14 +337,14 @@ file_name,spectral,signal
 "emo/Johnny Cash _ Hurt.mp3",0.925314369861581,0.07303517541397592
 "emo/Junip _ Line of fire.mp3",0.9658814260660626,0.04207967471927695
 "emo/Kashmir _  Kaghaz Ka Jahaz.mp3",0.9421831357413973,0.2064406001928874
-"emo/Kris Beats (John Stewart Eduri) Mirzapur Intro theme _ cover.mp3",0.9420262028867281,0.008607454333092868
+"emo/Kris Beats (John Stewart Eduri) _ Mirzapur Intro theme - cover.mp3",0.9420262028867281,0.008607454333092868
 "emo/Krishnokoli _ jao pakhi bolo tare.mp3",0.9486212251135278,0.02685879598206064
 "emo/Led Zapplin _ Black Dog.mp3",0.9440278268399541,0.15556207745397857
 "emo/Leprous _ Below.mp3",0.9307301687580509,0.0032294548479272515
 "emo/Lightening Bolt _ Mega Ghost.mp3",0.963938449503943,0.055706139469836415
 "emo/Lingua Ignota _ May Failure be Your Noose.mp3",0.9499934262668317,0.07213368713571748
 "emo/Loch Lomond _ Elephants and Little Girls.mp3",0.9340204453733635,0.07604584917953537
-"emo/Lucky Ali _ Badlonki Gehrai.mp3",0.8928568153876992,0.0037054008947358056
+"emo/Lucky Ali _ Baadalon ki Gehrai.mp3",0.8928568153876992,0.0037054008947358056
 "emo/Marina and The Diamonds _ Bubblegum B!tch.mp3",0.9738749857528328,0.24923840158771016
 "emo/Missio _ Everybody Gets High.mp3",0.9552091389584402,0.47025064213427265
 "emo/Mokita _ Inside Out .mp3",0.9261167429819828,0.02793702964871615
@@ -373,7 +373,7 @@ file_name,spectral,signal
 "emo/Sean Bolten _ Cotton Candy Skies.mp3",0.9331281268504104,0.03891736439863879
 "emo/Seinabo Sey _ Hard Time.mp3",0.9552744029110238,0.13340297671799342
 "emo/Shahid Mallya (Raghav Sachar) {Kumaar} _ Mann Jaage.mp3",0.9512011987676184,0.046918667505968736
-"emo/Shajr _ Kisay Da Yar _ Pepsi Battle of the Bands Season 2.mp3",0.9460531889190755,0.2008633997686274
+"emo/Shajr _ Kisay Da Yar - Pepsi Battle of the Bands Season 2.mp3",0.9460531889190755,0.2008633997686274
 "emo/Shruti Pathak, Salim Merchant (Salim_ Sulaiman) {Irfan Siddiqui} _ Mar Jawaan.mp3",0.9613191378609853,0.07862406651112426
 "emo/Sibtain Khalid _ Sajna.mp3",0.9081216407091771,0.030422541256759167
 "emo/Skeeter Davis _ The End of the World.mp3",0.9655555766529712,0.11196971748949903
@@ -409,7 +409,7 @@ file_name,spectral,signal
 "fleetwood/Fleetwood Mac _ Big Love.mp3",0.9583662525586765,0.5162845508138872
 "fleetwood/Fleetwood Mac _ The Chain.mp3",0.9190321877720616,0.021128803619791667
 "fleuri/Fleurie _ Hurts Like Hell.mp3",0.9259977719151126,0.07094515405126353
-"flora/Denis Kalytovskyi (Flora Cash) {Flora Cash} - You're Somebody Else _ cover.mp3",0.9489552149636868,0.04090674717056423
+"flora/Denis Kalytovskyi (Flora Cash) {Flora Cash} _ You're Somebody Else - cover.mp3",0.9489552149636868,0.04090674717056423
 "flora/Flora Cash _ Father's Sins (Slowed   Reverb) Lofi.mp3",0.9483752298781837,0.025197317886752484
 "flora/Flora Cash _ I Wasted You (Slowed   Reverb) Lofi.mp3",0.9497229424854596,0.08771866932642418
 "flora/Flora Cash _ Love Is In The Small Things (Slowed   Reverb) Lofi.mp3",0.9619357310883717,0.04935103401804097
@@ -490,7 +490,7 @@ file_name,spectral,signal
 "honeysuckle/Frankie Cosmos _ Outside With The Cuties.mp3",0.9289096365952308,0.19900384635209425
 "honeysuckle/Frank Sinatra _ I Won't Dance.mp3",0.9470406140796701,0.15613403963889722
 "honeysuckle/Gaby Moreno _ Daydream By Design.mp3",0.9712417492593022,0.06848002247890951
-"honeysuckle/Halo _ Beyoncé.mp3",0.920363417792829,0.06956824532458847
+"honeysuckle/Beyoncé _ Halo.mp3",0.920363417792829,0.06956824532458847
 "honeysuckle/Handbook _ Eyes - Edit.mp3",0.922731960345837,0.03085265195065207
 "honeysuckle/Hannah Ellis, Nick Wayne _ If the World Was Ending - cover.mp3",0.9515146614194661,0.16427966184326734
 "honeysuckle/Iman Chokroborty _ Rangiye Diye Jao.mp3",0.9585595235151326,0.05603826292880528
@@ -523,7 +523,7 @@ file_name,spectral,signal
 "honeysuckle/Raghav _ Sufi.mp3",0.9428961375667325,0.04496701758642625
 "honeysuckle/Really SlowMotion _ Reborn.mp3",0.940662533078489,0.09875133507230642
 "honeysuckle/Ryuichi Sakamoto _ Solari.mp3",0.9556382379442662,0.01608863360294211
-"honeysuckle/Safarnama _ Lucky Ali.mp3",0.9369330598655197,0.18870360009422266
+"honeysuckle/Lucky Ali _ Safarnama.mp3",0.9369330598655197,0.18870360009422266
 "honeysuckle/Sales _ Chinese New Year.mp3",0.9816954451816984,0.22380374608552875
 "honeysuckle/Sandhya Mukherjee _ E Gaane Prajapati.mp3",0.9756342333607338,0.07473621401507517
 "honeysuckle/Shradhha Kapoor _ Galliyan.mp3",0.9647264920737328,0.13264628666270864
@@ -599,7 +599,7 @@ file_name,spectral,signal
 "indianRaga/Indian Raga _ Piya Se Naina - Desh Thillana Mashup.mp3",0.9598559456672963,0.23722802109308053
 "indianRaga/Indian Raga _ Tabla Trap Padhant.mp3",0.942895152073403,0.3061083096785404
 "indianRaga/Indian Raga _ Uptown Funk Raga Mix.mp3",0.9646074143794359,0.43409957262813614
-"ishqiya/Mika, Sukhwinder (Vishal Bharadwaj) {Gulzar} _ In e Batutta.mp3",0.9653752152443763,0.18946844685679434
+"ishqiya/Mika, Sukhwinder (Vishal Bharadwaj) {Gulzar} _ Ibn e Batutta.mp3",0.9653752152443763,0.18946844685679434
 "ishqiya/Rahat Fateh Ali Khan _ Dil Ka Mizaaj Ishqiya.mp3",0.8885190858275579,0.015556150432883343
 "ishqiya/Rahat Fateh Ali Khan _ Dil To Bachcha Hai.mp3",0.8832654774935128,0.07155352688566419
 "ishqiya/Rekha Bhardwaj (Vishal Bhardwaj) {Gulzar} _ Jagaave Saari Raina.mp3",0.960127240388482,0.1797529516085431
@@ -685,7 +685,7 @@ file_name,spectral,signal
 "kanishkSeth/Kanishk Seth _ Gum Huye Hum.mp3",0.9646600977046151,0.05389873628616696
 "kanishkSeth/Kanishk Seth, Kavita Seth _ Rangi Saari.mp3",0.9460119073783748,0.0026139351809953203
 "kanishkSeth/Kanishk Seth _ Thehra.mp3",0.9377230199531049,0.03754047891420371
-"karanChitra/Harmonious tabla groove _ Karan Chitra Deshmukh.mp3",0.9553654552520107,0.05925148987338226
+"karanChitra/Karan Chitra Deshmukh _ Harmonious tabla groove.mp3",0.9553654552520107,0.05925148987338226
 "karanChitra/Karan Chitra Deshmukh _ Coffin Dance - cover.mp3",0.9638638202218534,0.21488252016714612
 "karanChitra/Karan Chitra Deshmukh _ Game of Thrones Theme - cover.mp3",0.9323449917503881,0.13838200881083587
 "karshKale/Karsh Kale _ Butterfly Effect.mp3",0.9458856170835137,0.24838770876682736
@@ -837,8 +837,8 @@ file_name,spectral,signal
 "mixtapes/HomeworkRadio _ lo-fi for ghosts only.mp3",0.9129069945097184,0.40762438078400504
 "mixtapes/Patrick Watson _ je te laisserai des mots.mp3",0.9591233952568137,0.07312598749057718
 "mixtapes/Various _ The  sufi mashup.mp3",0.9674013127068084,0.3836695815873691
-"mohanKanan/Bhaari Bhaari _ Mohan Kanan.mp3",0.9377238780870383,0.13880785655262498
-"mohanKanan/Panchi Ud Gaya _ Mohan Kannan.mp3",0.9490527564660225,0.09210116966215184
+"mohanKanan/Mohan Kanan _ Bhaari Bhaari.mp3",0.9377238780870383,0.13880785655262498
+"mohanKanan/Mohan Kannan _ Panchi Ud Gaya.mp3",0.9490527564660225,0.09210116966215184
 "mohitChauhan/Mohit Chauhan (Pritam) {Sandeep Shrivastava} _ Tune Jo Na Kaha.mp3",0.939431086863409,0.1881782981646362
 "mohitChauhan/Mohit Chauhan (Pritam) _ Tum Se Hi.mp3",0.9567595660689466,0.1441599367673778
 "mom/AR Rahman, Shashaa Tirupati (AR Rahman) {Irshad Kamil} _ O Sona Tere.mp3",0.9486402674890692,0.0172892737003376
@@ -1197,7 +1197,7 @@ file_name,spectral,signal
 "shankarJaikishan/Lata Mangeshkar (Shankar Jaikishan) {Shailendra} _ Ajeeb Dastan Hai Yeh.mp3",0.9603218484008381,0.08056239606770564
 "shankarJaikishan/Manna Dey, Lata Mangeshkar (Shankar Jaikishan) {Shailendra} _ Pyar Hua Iqrar Hua.mp3",0.9648487599517994,0.21303426506747977
 "shankarJaikishan/Manna Dey (Shankar Jaikishan) {Shailendra} _ Chalat Musaafir.mp3",0.9560950325947819,0.3015901912864209
-"shankarJaikishan/Md Rafi (Shankar Jaikishan) {Hasrat Jaipuri _ Akle Akle Kahan Ja Rahe Ho.mp3",0.9831262838265946,0.35812013538545495
+"shankarJaikishan/Md Rafi (Shankar Jaikishan) {Hasrat Jaipuri} _ Akle Akle Kahan Ja Rahe Ho.mp3",0.9831262838265946,0.35812013538545495
 "shankarJaikishan/Mukesh (Shankar Jaikishan) {Shailendra} _ Awara Hoon.mp3",0.9695514245697266,0.32526613271922084
 "shankarJaikishan/Mukesh (Shankar Jaikishan) {Shailendra} _ Kisi Ki Muskurahaton Pe.mp3",0.961002802392262,0.4251405295165815
 "shantanuMoitro/Papon (Shantanu Moitro) {Ali Hayat} _ Sun Le Re.mp3",0.9591362938499757,0.04916604916832785
@@ -1296,7 +1296,7 @@ file_name,spectral,signal
 "strings/Strings, Sona Mohapatra _ Naina.mp3",1.0,0.0
 "strings/Strings _ Sonay Do.mp3",0.9469778567936574,0.07387174383203124
 "strings/Strings _ Zinda.mp3",0.9115790363790091,0.013847662764454035
-"strings/TAG - Mera Bichra Yaar - cover.mp3",0.9059259398618632,0.027990096332115744
+"strings/TAG _ Mera Bichra Yaar - cover.mp3",0.9059259398618632,0.027990096332115744
 "string/Tariq Harb {Bach} _ Toccata and Fugue, BWV 565.mp3",0.8979906359894388,0.014083531268636556
 "string/Wageshan _ Love Me Like You Do - cover.mp3",0.9295699249604483,0.009987443917170232
 "sufiyumSujatayum/Madhuvanthi Narayan (M. Jayachandran) {Manoj Yadav} _ Doorie.mp3",0.9325284161975997,0.015405501722027287
