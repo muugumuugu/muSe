@@ -9,16 +9,19 @@ albumName="${albumNameTemp^}"
 echo -e "(\n'${f%/}',\n'${albumName%/}','../../covers/albumart/${f%/}.webp'\n)," >>albums.lst ;done
 #------------------------------------------------------------------------------------
 genres=();
-IFS='%';
+IFS=$'%';
 while  read -r sname genre
 do
 	genres+=($genre)
 done < "../dat/genres.csv"
 unset IFS;
+IFS=$'\n';
 #
 i=0
-for d in $(ls */ -d | sort ) ; do cd "$d" ;
-	for f in $(ls *.mp3 | sort) ; do
+for d in $(ls */ -d -1 ) ; do cd "$d" ;
+	IFS=$'\n';
+	for f in $(ls *.mp3 -1) ; do
+		IFS=""
 		#gen=$(id3v2 -l "$f" | grep -i "content type" | sed "s/^.*: //" | sed "s/ (.*$//")
 		ff="../music/$d$f"
 		gen=${genres[$i]};

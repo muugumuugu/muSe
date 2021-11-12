@@ -112,7 +112,7 @@
 #EXTINF: Akash Bhora Shurjo Tara
 /home/muku/Desktop/muSe/music/noble/Noble Man (Rabindronath Tagore) {Rabindranath Tagore} _ Akash Bhora Shurjo Tara.mp3
 #EXTINF: Akle Akle Kahan Ja Rahe Ho
-/home/muku/Desktop/muSe/music/shankarJaikishan/Md Rafi (Shankar Jaikishan) {Hasrat Jaipuri _ Akle Akle Kahan Ja Rahe Ho.mp3
+/home/muku/Desktop/muSe/music/shankarJaikishan/Md Rafi (Shankar Jaikishan) {Hasrat Jaipuri} _ Akle Akle Kahan Ja Rahe Ho.mp3
 #EXTINF: Alhamdulillah
 /home/muku/Desktop/muSe/music/sufiyumSujatayum/Sudeep Palanad, Amrutha Suresh (M. Jayachandran){B K Harinarayanan} _ Alhamdulillah.mp3
 #EXTINF: Alive
@@ -239,6 +239,8 @@
 /home/muku/Desktop/muSe/music/bombayBandook/Bombay Bandook _ Azad.mp3
 #EXTINF: Azan The Light
 /home/muku/Desktop/muSe/music/sufiyumSujatayum/Zia Ul Haq (M. Jayachandran) [Midhun Ashok, Unni Elayaraja, Santhosh Chandran] _ Azan The Light.mp3
+#EXTINF: Baadalon ki Gehrai
+/home/muku/Desktop/muSe/music/emo/Lucky Ali _ Baadalon ki Gehrai.mp3
 #EXTINF: Baatein Karo
 /home/muku/Desktop/muSe/music/softPop/Vayu _ Baatein Karo.mp3
 #EXTINF: Baat Nahi Karni
@@ -261,8 +263,6 @@
 /home/muku/Desktop/muSe/music/plasticHearts/Miley Cyrus _ Bad Karma.mp3
 #EXTINF: Bad Liar
 /home/muku/Desktop/muSe/music/imagineDragons/Imagine Dragons _ Bad Liar.mp3
-#EXTINF: Badlonki Gehrai
-/home/muku/Desktop/muSe/music/emo/Lucky Ali _ Badlonki Gehrai.mp3
 #EXTINF: Badra Bahaar
 /home/muku/Desktop/muSe/music/queen/Amit Trivedi _ Badra Bahaar.mp3
 #EXTINF: Badra Re Tu
@@ -313,14 +313,14 @@
 /home/muku/Desktop/muSe/music/noOneElseCanWearYourCrown/Oh Wonder _ Better Now (Acoustic).mp3
 #EXTINF: Beverly
 /home/muku/Desktop/muSe/music/it/Benjamin Wallfisch _ Beverly.mp3
-#EXTINF: Beyoncé
-/home/muku/Desktop/muSe/music/honeysuckle/Halo _ Beyoncé.mp3
 #EXTINF: Beyond Me Beyond You
 /home/muku/Desktop/muSe/music/sitarmetal/Sitar Metal _ Beyond Me Beyond You.mp3
 #EXTINF: Beyond the Infinite
 /home/muku/Desktop/muSe/music/yanouv/Yanouv _ Beyond the Infinite.mp3
 #EXTINF: Bezubaan - The Audio Film Project
 /home/muku/Desktop/muSe/music/emo/Supriyaa Paathak, Naveen Koomar, Jai Rajesh Arya _ Bezubaan - The Audio Film Project.mp3
+#EXTINF: Bhaari Bhaari
+/home/muku/Desktop/muSe/music/mohanKanan/Mohan Kanan _ Bhaari Bhaari.mp3
 #EXTINF: Bhagyada Lakshmi Baramma
 /home/muku/Desktop/muSe/music/veenaSrivani/Veena Srivani, Purandara Dasa _ Bhagyada Lakshmi Baramma.mp3
 #EXTINF: Bhalobeshe Shokhi - cover
@@ -413,6 +413,8 @@
 /home/muku/Desktop/muSe/music/emo/Marina and The Diamonds _ Bubblegum B!tch.mp3
 #EXTINF: Bulla Ki Jaana Main Kaun
 /home/muku/Desktop/muSe/music/rabbi/Rabbi Shergil _ Bulla Ki Jaana Main Kaun.mp3
+#EXTINF: Bunnayn-za
+/home/muku/Desktop/muSe/music/bisteeProof/Bumbu Sauce _ Bunnayn-za.mp3
 #EXTINF: Burning Pile
 /home/muku/Desktop/muSe/music/mothermother/Mother Mother _ Burning Pile.mp3
 #EXTINF: Burn The Witch
@@ -553,10 +555,6 @@
 /home/muku/Desktop/muSe/music/emo/Sean Bolten _ Cotton Candy Skies.mp3
 #EXTINF: Counter Attack
 /home/muku/Desktop/muSe/music/howToTrainYourDragon/John Powell _ Counter Attack.mp3
-#EXTINF: cover
-/home/muku/Desktop/muSe/music/emo/Kris Beats (John Stewart Eduri) Mirzapur Intro theme _ cover.mp3
-#EXTINF: cover
-/home/muku/Desktop/muSe/music/flora/Denis Kalytovskyi (Flora Cash) {Flora Cash} - You're Somebody Else _ cover.mp3
 #EXTINF: Criminal
 /home/muku/Desktop/muSe/music/britney/Britney Spears _ Criminal.mp3
 #EXTINF: Crocodile
@@ -867,6 +865,8 @@
 /home/muku/Desktop/muSe/music/mothermother/Mother Mother _ Ghosting - reverbed.mp3
 #EXTINF: Gimme What I Want
 /home/muku/Desktop/muSe/music/plasticHearts/Miley Cyrus _ Gimme What I Want.mp3
+#EXTINF: Girl in the Room
+/home/muku/Desktop/muSe/music/killingEve/Cat's Eye _ Girl in the Room.mp3
 #EXTINF: Give Me Something
 /home/muku/Desktop/muSe/music/seafret/Seafret _ Give Me Something.mp3
 #EXTINF: Glass Eyes
@@ -917,6 +917,8 @@
 /home/muku/Desktop/muSe/music/noOneElseCanWearYourCrown/Oh Wonder _ Hallelujah.mp3
 #EXTINF: Hallelujia
 /home/muku/Desktop/muSe/music/rio/rio _ Hallelujia.mp3
+#EXTINF: Halo
+/home/muku/Desktop/muSe/music/honeysuckle/Beyoncé _ Halo.mp3
 #EXTINF: Hamein Itna Pyar
 /home/muku/Desktop/muSe/music/jal/Jal The Band _ Hamein Itna Pyar.mp3
 #EXTINF: Haminastu
@@ -937,6 +939,8 @@
 /home/muku/Desktop/muSe/music/queen/Amit Trivedi _ Harjaiyaan.mp3
 #EXTINF: Harkat
 /home/muku/Desktop/muSe/music/ankur/Ankur Tewari, The Ghalat Family _ Harkat.mp3
+#EXTINF: Harmonious tabla groove
+/home/muku/Desktop/muSe/music/karanChitra/Karan Chitra Deshmukh _ Harmonious tabla groove.mp3
 #EXTINF: Harmony of the Hearts
 /home/muku/Desktop/muSe/music/lSubramanium/L Subramaniam, Bindu Subramaniam _ Harmony of the Hearts.mp3
 #EXTINF: Harmony
@@ -1041,6 +1045,8 @@
 /home/muku/Desktop/muSe/music/aloknandaDasgupta/Alokananda Dasgupta _ I Am Trapped .mp3
 #EXTINF: I Believe
 /home/muku/Desktop/muSe/music/parikrama/Agnee, Parikrama, Shilpa Rao (Parikrama) _ I Believe.mp3
+#EXTINF: Ibn e Batutta
+/home/muku/Desktop/muSe/music/ishqiya/Mika, Sukhwinder (Vishal Bharadwaj) {Gulzar} _ Ibn e Batutta.mp3
 #EXTINF: I Can't Forget
 /home/muku/Desktop/muSe/music/lSubramanium/L Subramanium, Jorge Struntz _ I Can't Forget.mp3
 #EXTINF: I Did Something Bad
@@ -1053,10 +1059,14 @@
 /home/muku/Desktop/muSe/music/emo/Post Malone _ I Fall Apart.mp3
 #EXTINF: If God Was One Of Us
 /home/muku/Desktop/muSe/music/emo/Joan Osborne _ If God Was One Of Us.mp3
+#EXTINF: If I gave you my heart
+/home/muku/Desktop/muSe/music/killingEve/Unloved _ If I gave you my heart.mp3
 #EXTINF: I Forgive You
 /home/muku/Desktop/muSe/music/laakhonMeinEk/Neel Adhikari _ I Forgive You.mp3
 #EXTINF: I Found
 /home/muku/Desktop/muSe/music/amberRun/Amber Run _ I Found.mp3
+#EXTINF: If
+/home/muku/Desktop/muSe/music/killingEve/Unloved _ If.mp3
 #EXTINF: If There's A Rocket Tie Me to It
 /home/muku/Desktop/muSe/music/snowPatrol/Snow Patrol _ If There's A Rocket Tie Me to It.mp3
 #EXTINF: If the World Was Ending - cover
@@ -1119,8 +1129,6 @@
 /home/muku/Desktop/muSe/music/pritam/Soham Chokroborty (Pritam) {Sayeed Quadri} _ In Dino.mp3
 #EXTINF: Industry Baby
 /home/muku/Desktop/muSe/music/montero/Lil Nas X (Lil Nas X) _ Industry Baby.mp3
-#EXTINF: In e Batutta
-/home/muku/Desktop/muSe/music/ishqiya/Mika, Sukhwinder (Vishal Bharadwaj) {Gulzar} _ In e Batutta.mp3
 #EXTINF: In My Storm
 /home/muku/Desktop/muSe/music/yanouv/Yanouv _ In My Storm.mp3
 #EXTINF: Inside my head
@@ -1249,6 +1257,8 @@
 /home/muku/Desktop/muSe/music/jaggaJasoos/Arijit Singh, Mohan Kanan (Pritam) {Neelesh Misra} _ Jhumritalaiyya.mp3
 #EXTINF: Jibone Ki Paabo Na
 /home/muku/Desktop/muSe/music/bops/Manna Dey (Sudhin Dasgupta) _ Jibone Ki Paabo Na.mp3
+#EXTINF: Jiggernaut
+/home/muku/Desktop/muSe/music/bisteeProof/Bumbu Sauce _ Jiggernaut.mp3
 #EXTINF: Jimmi Jimmi Jimmi
 /home/muku/Desktop/muSe/music/discoDancer/Parvati Khan (Bappi Lahiri) {Anjaan} _ Jimmi Jimmi Jimmi.mp3
 #EXTINF: Jiya Jale - Kurvalikiliye
@@ -1335,8 +1345,6 @@
 /home/muku/Desktop/muSe/music/kaminey/Vishal Bhardwaj (Vishal Bhardwaj) {Gulazar} _ Kaminey.mp3
 #EXTINF: Kanne
 /home/muku/Desktop/muSe/music/thaikkudam/Thaikkudam Bridge _ Kanne.mp3
-#EXTINF: Karan Chitra Deshmukh
-/home/muku/Desktop/muSe/music/karanChitra/Harmonious tabla groove _ Karan Chitra Deshmukh.mp3
 #EXTINF: Karle Jugaad Karle
 /home/muku/Desktop/muSe/music/fukrey/Kailash Kher, Pradipta Guha, Keerthi Sagathia (Ram Sampath) {Munna Dhiman} _ Karle Jugaad Karle.mp3
 #EXTINF: Karvan
@@ -1387,6 +1395,8 @@
 /home/muku/Desktop/muSe/music/ofMonstersAndMen/Of Monsters and Men _ King And Lionheart.mp3
 #EXTINF: King of Shadow
 /home/muku/Desktop/muSe/music/katCunning/Kat Cunning _ King of Shadow.mp3
+#EXTINF: Kisay Da Yar - Pepsi Battle of the Bands Season 2
+/home/muku/Desktop/muSe/music/emo/Shajr _ Kisay Da Yar - Pepsi Battle of the Bands Season 2.mp3
 #EXTINF: Kisi Ki Muskurahaton Pe
 /home/muku/Desktop/muSe/music/shankarJaikishan/Mukesh (Shankar Jaikishan) {Shailendra} _ Kisi Ki Muskurahaton Pe.mp3
 #EXTINF: Knockin' On Heaven's Door
@@ -1529,8 +1539,6 @@
 /home/muku/Desktop/muSe/music/taylor/Taylor Swift _ Lover.mp3
 #EXTINF: Love scene at Bus travel
 /home/muku/Desktop/muSe/music/sufiyumSujatayum/M. Jayachandran _ Love scene at Bus travel.mp3
-#EXTINF: Lucky Ali
-/home/muku/Desktop/muSe/music/honeysuckle/Safarnama _ Lucky Ali.mp3
 #EXTINF: Luka chuppi - cover
 /home/muku/Desktop/muSe/music/viraj/Viraj Vaghela _ Luka chuppi - cover.mp3
 #EXTINF: Lukka Chhupi
@@ -1625,6 +1633,8 @@
 /home/muku/Desktop/muSe/music/ramSampath/Raghubir Yadav (Ram Sampath) _ Mehngai Dayain Khaye Jaat Hai.mp3
 #EXTINF: Memories
 /home/muku/Desktop/muSe/music/emo/Bonafide,Bilal Saeed _ Memories.mp3
+#EXTINF: Mera Bichra Yaar - cover
+/home/muku/Desktop/muSe/music/strings/TAG _ Mera Bichra Yaar - cover.mp3
 #EXTINF: Mera Jahan
 /home/muku/Desktop/muSe/music/gajendraVerma/Gajendra Verma _ Mera Jahan.mp3
 #EXTINF: Mera Jahan
@@ -1657,6 +1667,8 @@
 /home/muku/Desktop/muSe/music/alec/Alec Benjamin _ Mind Is A Prison.mp3
 #EXTINF: Mirage
 /home/muku/Desktop/muSe/music/emo/Douran _ Mirage.mp3
+#EXTINF: Mirzapur Intro theme - cover
+/home/muku/Desktop/muSe/music/emo/Kris Beats (John Stewart Eduri) _ Mirzapur Intro theme - cover.mp3
 #EXTINF: Miscarriage
 /home/muku/Desktop/muSe/music/mastersOfSex/Michael Penn _ Miscarriage.mp3
 #EXTINF: Missing
@@ -1669,12 +1681,10 @@
 /home/muku/Desktop/muSe/music/lifafa/Lifafa _ MJRH.mp3
 #EXTINF: Mockingbird
 /home/muku/Desktop/muSe/music/eminem/Eminem _ Mockingbird.mp3
-#EXTINF: Mohan Kanan
-/home/muku/Desktop/muSe/music/mohanKanan/Bhaari Bhaari _ Mohan Kanan.mp3
-#EXTINF: Mohan Kannan
-/home/muku/Desktop/muSe/music/mohanKanan/Panchi Ud Gaya _ Mohan Kannan.mp3
 #EXTINF: Moh Moh Ke Dhaage
 /home/muku/Desktop/muSe/music/papon/Papon {Varun Grover} _ Moh Moh Ke Dhaage.mp3
+#EXTINF: Mojambo
+/home/muku/Desktop/muSe/music/bisteeProof/Bumbu Sauce _ Mojambo.mp3
 #EXTINF: Momentary Present
 /home/muku/Desktop/muSe/music/bhrigu/Bhrigu Sahni _ Momentary Present.mp3
 #EXTINF: Moments
@@ -1727,6 +1737,8 @@
 /home/muku/Desktop/muSe/music/gabrielleAplin/Gabrielle Aplin _ My Mistake.mp3
 #EXTINF: My Name Is Anthony Gonsalves
 /home/muku/Desktop/muSe/music/kishoreKumar/Kishore Kumar, Amitabh Bachhan (Laxmikant Pyarelal) {Anand Bakshi} _ My Name Is Anthony Gonsalves.mp3
+#EXTINF: My Punjabi Love for you
+/home/muku/Desktop/muSe/music/bisteeProof/Bumbu Sauce _ My Punjabi Love for you.mp3
 #EXTINF: Mystery Of Love
 /home/muku/Desktop/muSe/music/callMeByYourName/Sufjan Stevens _ Mystery Of Love.mp3
 #EXTINF: Mystic Trip to Al-Dzazir
@@ -1901,6 +1913,8 @@
 /home/muku/Desktop/muSe/music/moushumiBhowmik/Moushumi Bhowmik _ Pakhi Ure Ure.mp3
 #EXTINF: Pal Wahi Hai
 /home/muku/Desktop/muSe/music/karthikRao/Karthik Rao & Noxious D _ Pal Wahi Hai.mp3
+#EXTINF: Panchi Ud Gaya
+/home/muku/Desktop/muSe/music/mohanKanan/Mohan Kannan _ Panchi Ud Gaya.mp3
 #EXTINF: Panda
 /home/muku/Desktop/muSe/music/animals/This Town Needs Guns _ Panda.mp3
 #EXTINF: Paper Crown
@@ -1925,8 +1939,6 @@
 /home/muku/Desktop/muSe/music/laakhonMeinEk/Mohan Kannan (Neel Adhikari) {Abhishek Chatterjee} _ Pending Sapne.mp3
 #EXTINF: Penny Taken to the Hospital
 /home/muku/Desktop/muSe/music/joker/Hildur Guðnadóttir _ Penny Taken to the Hospital.mp3
-#EXTINF: Pepsi Battle of the Bands Season 2
-/home/muku/Desktop/muSe/music/emo/Shajr _ Kisay Da Yar _ Pepsi Battle of the Bands Season 2.mp3
 #EXTINF: Perfect Places
 /home/muku/Desktop/muSe/music/lorde/Lorde _ Perfect Places.mp3
 #EXTINF: Perfect World (Acoustic Version)
@@ -2151,6 +2163,8 @@
 /home/muku/Desktop/muSe/music/toveLo/Tove Lo _ Sadder Badder Cooler.mp3
 #EXTINF: Sæglópur
 /home/muku/Desktop/muSe/music/sigur/Sigur Rós _ Sæglópur.mp3
+#EXTINF: Safarnama
+/home/muku/Desktop/muSe/music/honeysuckle/Lucky Ali _ Safarnama.mp3
 #EXTINF: Safar
 /home/muku/Desktop/muSe/music/pritam/Arijit Singh (Pritam) {Irshad Kamil} _ Safar.mp3
 #EXTINF: Sage
@@ -2601,8 +2615,8 @@
 /home/muku/Desktop/muSe/music/mastersOfSex/Michael Penn _ Together Is The Key.mp3
 #EXTINF: Toh Phir Aao
 /home/muku/Desktop/muSe/music/mustafa/Roxen, Mustafa Zaahid _ Toh Phir Aao.mp3
-#EXTINF: To Lose Someone new
-/home/muku/Desktop/muSe/music/takenBytrees/Taken By Trees _ To Lose Someone new.mp3
+#EXTINF: To Lose Someone
+/home/muku/Desktop/muSe/music/takenBytrees/Taken By Trees _ To Lose Someone.mp3
 #EXTINF: Tomar Bhubone Phuler Mela
 /home/muku/Desktop/muSe/music/honeysuckle/Akhilbandhu Ghosh _ Tomar Bhubone Phuler Mela.mp3
 #EXTINF: Tonight I Sleep
@@ -2723,6 +2737,8 @@
 /home/muku/Desktop/muSe/music/veenaSrivani/Veena Srivani _ Vasantavarnam.mp3
 #EXTINF: Vathikkalu Vellaripravu
 /home/muku/Desktop/muSe/music/sufiyumSujatayum/Nithya Mammen, Arjun Krishna (M. Jayachandran) {B K Harinarayanan} _ Vathikkalu Vellaripravu.mp3
+#EXTINF: Vazeer e azam
+/home/muku/Desktop/muSe/music/bisteeProof/Bambu Sauce _ Vazeer e azam.mp3
 #EXTINF: Vengeance
 /home/muku/Desktop/muSe/music/zackHempsey/Zack Hemsey _ Vengeance.mp3
 #EXTINF: Verbatim
@@ -2881,6 +2897,8 @@
 /home/muku/Desktop/muSe/music/miley/Miley Cyrus _ Younger Now.mp3
 #EXTINF: You're Only Lonely
 /home/muku/Desktop/muSe/music/honeysuckle/JD Souther _ You're Only Lonely.mp3
+#EXTINF: You're Somebody Else - cover
+/home/muku/Desktop/muSe/music/flora/Denis Kalytovskyi (Flora Cash) {Flora Cash} _ You're Somebody Else - cover.mp3
 #EXTINF: Your Place Or Mine
 /home/muku/Desktop/muSe/music/takenBytrees/Taken By Trees _ Your Place Or Mine.mp3
 #EXTINF: Zara Zara
@@ -2901,4 +2919,3 @@
 /home/muku/Desktop/muSe/music/plasticHearts/Miley Cyrus _ Zombie (Live from the NIVA Save Our Stages Festival).mp3
 #EXTINF: Zombie
 /home/muku/Desktop/muSe/music/crannberries/The Cranberries _ Zombie.mp3
-strings/TAG - Mera Bichra Yaar - cover.mp3

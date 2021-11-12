@@ -132,6 +132,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 'Bill Wurtz','../../covers/albumart/billWurtz.webp'
 ),
 (
+'bisteeProof',
+'Bistee Proof','../../covers/albumart/bisteeProof.webp'
+),
+(
 'blackEyedPeas',
 'Black Eyed Peas','../../covers/albumart/blackEyedPeas.webp'
 ),
@@ -454,6 +458,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'keys',
 'Keys','../../covers/albumart/keys.webp'
+),
+(
+'killingEve',
+'Killing Eve','../../covers/albumart/killingEve.webp'
 ),
 (
 'killYourDarlings',
@@ -1034,5 +1042,5 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'znmd',
 'Znmd','../../covers/albumart/znmd.webp'
-),
+)
 ;
