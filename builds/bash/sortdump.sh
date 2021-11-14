@@ -5,7 +5,6 @@ for d in $(ls -d */); do
 		mkdir -p ../dat/music/$d
 		mkdir -p ../music/$d
 		mkdir -p ../musicstash/forMP3player/$d
-		mkdir -p ../musicstash/highq/$d
 		#ls $d |sort -R |tail -1 |while read f; do
 			#echo $f;
 			#eyeD3 --write-images=$d "$d$f"  #writes covers from id3 tags
@@ -22,12 +21,13 @@ for d in $(ls -d */); do
 		echo  '"'"../music/$d$f"'"%' '"'"$gen"'",' >> "../../dat/dumps-genre.csv"
 		cp "$f" "../../dat/music/$d" -f
 		lame -b64 "$f" "$f.min" ;
-		mv "$f" ../../musicstash/highq/$d -f;
 		rename 's/\.min//' * -f;
 		cp "$f" ../../music/$d -f
 		mv "$f" "../../musicstash/forMP3player/$d$f.min" -f
 		cd ../../musicstash/forMP3player/$d
 		rename 's/(.*) _ (.*)\.mp3\.min/$2 _ $1.mp3/' * -f
+		lame -b32 "$f" "$f.min" ;
+		rename 's/\.min//' * -f;
 		cd ../../../dump/$d
 	done;
 	mogrify -thumbnail 500x500! -format webp *.jpg *.bmp *.jpeg *.png
