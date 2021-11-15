@@ -8,12 +8,14 @@ function setup() {
   noCanvas();
   player=select('#player');
   song1=createSelect();
+  song1.id("main");
   song2=createSelect();
   song2.hide();
   numsongs=createSlider(2,50,10,1);
   numsongs.elt.title="10"
   numsongs.elt.onchange=function(){numsongs.elt.title=numsongs.value();}
   paramdrop=createSelect();
+  paramdrop.id("main2")
   //button1=createButton('get simalrity');
   button2=createButton('get ngrbs');
   files=csv.getColumn('file_name')
@@ -26,6 +28,20 @@ function setup() {
   }
  // button1.mousePressed(printscore);
   button2.mousePressed(findngbrs);
+  new TomSelect("#main",{
+        create: false,
+        sortField: {
+            field: "text",
+            direction: "asc"
+        }
+    });
+    new TomSelect("#main2",{
+        create: false,
+        sortField: {
+            field: "text",
+            direction: "asc"
+        }
+    });
 }
 
 

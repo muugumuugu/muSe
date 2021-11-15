@@ -10,11 +10,17 @@ function preload(){
   csv=loadTable("../dat/agg-features-norm.csv",'csv','header')
 }
 function setup() {
-  cnvs=createCanvas(windowWidth, windowHeight-100);
-  background(255);
-  song=createSelect('');
-  btn=createButton('get a forest')
+
+btn=createButton('get a forest')
   btn.mousePressed(movemouse)
+  song=createSelect('');
+  song.id('main');
+
+  cnvs=createCanvas(windowWidth, windowHeight-150);
+  background(255);
+
+
+
   let w=width/2,h=height/2
   let boundary = new Rectangle(w,h,w,h);
   qtree = new QuadTree(boundary, 4);
@@ -27,6 +33,13 @@ function setup() {
     song.option(i+ ' - ' + p.data.replace(/.*_ /,"").replace('.mp3',' - ' + artist),i)
     qtree.insert(p);
   }
+  new TomSelect("#main",{
+        create: false,
+        sortField: {
+            field: "text",
+            direction: "asc"
+        }
+    });
   //noLoop();
   background(0);
   qtree.show();
