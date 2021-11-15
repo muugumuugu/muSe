@@ -29,7 +29,7 @@ CREATE TABLE songs(
 	title     varchar(5000),
 	artist    varchar(500) ,
 	album     varchar(100) ,
-	genre     varchar(100) ,
+	genre     varchar(500) ,
 	duration  varchar(100) ,
 	path      varchar(5000)
 );

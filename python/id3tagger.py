@@ -17,7 +17,7 @@ def parse_arguments():
 
 def files_to_csv(list_dir):
     '''open a csv file and walk through all directories in current one'''
-    field_list = ['folder', 'file', 'album', 'artist', 'title','genre']
+    field_list = ['folder', 'file', 'album', 'artist', 'title','genre','decription']
     # prepare row
     row = {i:None for i in field_list}
     # prepare csv
@@ -38,13 +38,14 @@ def files_to_csv(list_dir):
                 cw.writerow(row)
     csv_file.close()
 
-def add_tags(mp3_filepath, album, artist, title,genre):
+def add_tags(mp3_filepath, album, artist, title,genre,description):
     '''add tags to a file'''
     mp3 = EasyID3(mp3_filepath)
     mp3['album'] = album
     mp3['artist'] = artist
     mp3['title'] = title
     mp3['genre'] = genre
+    mp3['isrc'] = description
     print(f'[DONE] {mp3}')
     mp3.save(mp3_filepath)
 
@@ -61,11 +62,12 @@ def process_file(row):
     artist = row['artist']
     title = row['title']
     genre = row['genre']
+    description=row['description']
     try:
-        add_tags(mp3_filepath, album, artist, title,genre)
+        add_tags(mp3_filepath, album, artist, title,genre,description)
     except ID3NoHeaderError:
         make_tags(mp3_filepath)
-        add_tags(mp3_filepath, album, artist, title,genre)
+        add_tags(mp3_filepath, album, artist, title,genre,description)
 
 def main():
     namespace = vars(parse_arguments())

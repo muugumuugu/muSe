@@ -10,7 +10,7 @@ if (isset($_GET["term"])) {
 ?>
 
 <div class="searchContainer">
-	<h4> Search for an artist, album or a song</h4>
+	<h4> Search genre, artist, album or a song space</h4>
 	<input type="text" class="searchInput" value="<?php echo $term; ?>" placeholder="Search Here!"
 	 onfocus="var val=this.value; this.value=''; this.value= val;" >
 </div>
@@ -43,7 +43,7 @@ if (isset($_GET["term"])) {
 	<ul class="trackList">
 		<?php
 
-			$songsQuery = mysqli_query($con, "SELECT id FROM songs WHERE id REGEXP '$term' LIMIT 10");
+			$songsQuery = mysqli_query($con, "SELECT id FROM songs WHERE id REGEXP '$term' or genre REGEXP '$term' LIMIT 10");
 
 			if (mysqli_num_rows($songsQuery) == 0) {
 				echo "<span class='noResults'>No songs found Matching ".$term."</span>";
