@@ -4,8 +4,16 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 '13.0.0.0.0','../../covers/albumart/13.0.0.0.0.webp'
 ),
 (
+'22break',
+'22break','../../covers/albumart/22break.webp'
+),
+(
 '50States',
 '50 States','../../covers/albumart/50States.webp'
+),
+(
+'aamir',
+'Aamir','../../covers/albumart/aamir.webp'
 ),
 (
 'aankhonDekhi',
@@ -140,6 +148,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 'Black Eyed Peas','../../covers/albumart/blackEyedPeas.webp'
 ),
 (
+'blocParty',
+'Bloc Party','../../covers/albumart/blocParty.webp'
+),
+(
 'bombay',
 'Bombay','../../covers/albumart/bombay.webp'
 ),
@@ -222,6 +234,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'discoDancer',
 'Disco Dancer','../../covers/albumart/discoDancer.webp'
+),
+(
+'don',
+'Don','../../covers/albumart/don.webp'
 ),
 (
 'doomPatrol',
@@ -1022,6 +1038,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'yanouv',
 'Yanouv','../../covers/albumart/yanouv.webp'
+),
+(
+'yashraj',
+'Yashraj','../../covers/albumart/yashraj.webp'
 ),
 (
 'yellowDiary',

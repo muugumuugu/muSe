@@ -21,13 +21,14 @@ $user = new User($con, $playlist->getOwner());
 		<p><?php echo $playlist->getOwner(); ?></p>
 		<p><?php echo $playlist->getNumberofSongs(); ?> Songs </p>
 		<button class="button" onclick="deletePlaylist('<?php echo $playlistId; ?>')">Delete Playlist</button>
+		<button class="button" onclick="savePlaylist('<?php echo $playlistId; ?>')">Export Playlist</button>
 	</div>
-	
+
 </div>
 
 <div class="trackListContainer">
 	<ul class="trackList">
-		<?php 
+		<?php
 			$songsarray = $playlist->getSongsId();
 			$i = 1;
 			foreach ($songsarray as $songsId ) {
@@ -41,7 +42,7 @@ $user = new User($con, $playlist->getOwner());
 							<span class="tracknumber">'.$i.'</span>
 						</div>
 
-						<div class="trackInfo"> 
+						<div class="trackInfo">
 							<span class="trackName">'.$playlistSong->getTitle().'</span>
 							<span class="artistName">'.$songArtist->getName().'</span>
 						</div>
@@ -63,14 +64,14 @@ $user = new User($con, $playlist->getOwner());
 		<script type="text/javascript">
 			var tempSongsId = '<?php echo json_encode($songsarray) ?>';
 			tempPlaylist = JSON.parse(tempSongsId);
-		
+
 		</script>
 	</ul>
-	
+
 </div>
 <nav class="optionMenu">
 	<input type="hidden" class="songId">
 	<?php echo Playlist::showDropdown($con, $userLoggedIn->getUserName()); ?>
 	<div class="item" onclick="deleteSongPlaylist(this,'<?php echo $playlistId; ?>')">Delete from Playlist</div>
-	
+
 </nav>

@@ -128,6 +128,24 @@ function deletePlaylist(playlistId){
 
 }
 
+function savePlaylist(playlistId){
+
+	var prompt = confirm("Do You really want to export this Playlist");
+
+	if (prompt == true) {
+
+		$.post("includes/handlers/ajax/exportPlaylist.php", { playlistId: playlistId})
+		.done(function(error){
+			if (error != "") {
+				alert(error);
+				return;
+			}
+			openpage("yourMusic.php");
+		});
+	}
+
+}
+
 function formatTime(seconds){
 	var time = Math.round(seconds);
 	var minute = Math.floor(time / 60);
