@@ -151,6 +151,7 @@ delete from artists;INSERT into artists (id,name) VALUES
 ("Cross Records","Cross Records"),
 ("Danish Pratap Sood","Danish Pratap Sood"),
 ("Sagar Desai","Sagar Desai"),
+("Deepeche Mode","Deepeche Mode"),
 ("Benny Dayal, Tanvi (AR Rahman) {Prasoon Joshi}","Benny Dayal, Tanvi (AR Rahman) {Prasoon Joshi}"),
 ("Javed Ali, Kailash Kher (AR Rahman) {Prasoon Joshi}","Javed Ali, Kailash Kher (AR Rahman) {Prasoon Joshi}"),
 ("Mohit Chauhan (AR Rahman) {Prasoon Joshi}","Mohit Chauhan (AR Rahman) {Prasoon Joshi}"),
@@ -654,6 +655,7 @@ delete from artists;INSERT into artists (id,name) VALUES
 ("Kishore Kumar (RD Burman) {Gulzar}","Kishore Kumar (RD Burman) {Gulzar}"),
 ("Kishore Kumar (RD Burman)","Kishore Kumar (RD Burman)"),
 ("Lata Mangeshkar, DJ Doll (RD Burman)","Lata Mangeshkar, DJ Doll (RD Burman)"),
+("Lata Mangeshkar {Majrooh Sultanpuri} (RD Burman)","Lata Mangeshkar {Majrooh Sultanpuri} (RD Burman)"),
 ("Mohammed Rafi, RD Burman (RD Burman) {Anand Bakshi}","Mohammed Rafi, RD Burman (RD Burman) {Anand Bakshi}"),
 ("Mukesh (RD Burman) {Majrooh Sultanpuri}","Mukesh (RD Burman) {Majrooh Sultanpuri}"),
 ("Shailendra Singh (RD Burman) {Gulshan Bawra}","Shailendra Singh (RD Burman) {Gulshan Bawra}"),
@@ -785,6 +787,7 @@ delete from artists;INSERT into artists (id,name) VALUES
 ("The 1975","The 1975"),
 ("the 1975","the 1975"),
 ("The National","The National"),
+("Intrusion","Intrusion"),
 ("Tushar Lall & Band","Tushar Lall & Band"),
 ("Tushar Lall & The Budapest Orchestra, Mame Khan, Tajinder Singh, Shatadru Kabir","Tushar Lall & The Budapest Orchestra, Mame Khan, Tajinder Singh, Shatadru Kabir"),
 ("Tobias Rauscher","Tobias Rauscher"),
@@ -828,5 +831,4 @@ delete from artists;INSERT into artists (id,name) VALUES
 ("Farhan Akhtar {Jaaved Akhtar}","Farhan Akhtar {Jaaved Akhtar}"),
 ("Mohit chauhan, Alyssa Mendonsa (Shankar Ehsaan Loy) {Jaaved Akhtar}","Mohit chauhan, Alyssa Mendonsa (Shankar Ehsaan Loy) {Jaaved Akhtar}"),
 ("Shankar Madhavan (Shankar-Ehsaan-Loy) {Jaaved Akhtar}","Shankar Madhavan (Shankar-Ehsaan-Loy) {Jaaved Akhtar}"),
-("Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}","Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}")
-;
+("Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}","Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}"),

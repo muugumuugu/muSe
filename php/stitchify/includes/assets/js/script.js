@@ -140,7 +140,7 @@ function savePlaylist(playlistId){
 				alert(error);
 				return;
 			}
-			openpage("yourMusic.php");
+			window.document.location.href="includes/handlers/ajax/download.php";
 		});
 	}
 

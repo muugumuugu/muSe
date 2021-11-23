@@ -212,6 +212,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 'Death In The Gunj','../../covers/albumart/deathInTheGunj.webp'
 ),
 (
+'deepecheMode',
+'Deepeche Mode','../../covers/albumart/deepecheMode.webp'
+),
+(
 'delhi6',
 'Delhi6','../../covers/albumart/delhi6.webp'
 ),
@@ -984,6 +988,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 'The Nationals','../../covers/albumart/theNationals.webp'
 ),
 (
+'theSeductionOfSilence',
+'The Seduction Of Silence','../../covers/albumart/theSeductionOfSilence.webp'
+),
+(
 'tijp',
 'Tijp','../../covers/albumart/tijp.webp'
 ),
@@ -1062,5 +1070,5 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'znmd',
 'Znmd','../../covers/albumart/znmd.webp'
-)
+),
 ;
