@@ -1070,5 +1070,5 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'znmd',
 'Znmd','../../covers/albumart/znmd.webp'
-),
+)
 ;
