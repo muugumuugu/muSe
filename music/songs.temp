@@ -12117,7 +12117,7 @@ delete from songs; INSERT into songs(id,album,artist,title,duration,path,genre) 
 "Years and Years",
 "1977",
 "180",
-"yearsAndYears/Years and Years _ 1977.mp3", "hi-nrg bebop" ),
+"yearsAndYears/Years and Years _ 1977.mp3", "" ),
 
 (
 "yearsAndYears/Years and Years _ Breathe.mp3",
