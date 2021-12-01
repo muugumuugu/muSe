@@ -14,6 +14,7 @@ playlistinfos["sb"]="Soda Bubbles";
 playlistinfos["scw"]="Staircase Window";
 playlistinfos["sif"]="Smoke is Fluff";
 playlistinfos["sp"]="Sheuwuli Phoool";
+srrnd.m3u~#EXTM3U
 playlistinfos["swcl"]="Leaning on citylights, gazing into starwinds";
 playlistinfos["tempmixtape"]="temporary hyperfixation mixtape";
 playlistinfos["tm"]="Trail Mix";

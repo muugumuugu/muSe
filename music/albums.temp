@@ -108,8 +108,16 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 'Audiomachine','../../covers/albumart/audiomachine.webp'
 ),
 (
+'avicii',
+'Avicii','../../covers/albumart/avicii.webp'
+),
+(
 'baarat',
 'Baarat','../../covers/albumart/baarat.webp'
+),
+(
+'babani',
+'Babani','../../covers/albumart/babani.webp'
 ),
 (
 'bandRecords',
@@ -250,6 +258,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'dot',
 'Dot','../../covers/albumart/dot.webp'
+),
+(
+'echosmith',
+'Echosmith','../../covers/albumart/echosmith.webp'
 ),
 (
 'eminem',
@@ -616,6 +628,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 'Mothermother','../../covers/albumart/mothermother.webp'
 ),
 (
+'mountainGoats',
+'Mountain Goats','../../covers/albumart/mountainGoats.webp'
+),
+(
 'moushumiBhowmik',
 'Moushumi Bhowmik','../../covers/albumart/moushumiBhowmik.webp'
 ),
@@ -658,6 +674,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'nusrat',
 'Nusrat','../../covers/albumart/nusrat.webp'
+),
+(
+'oceanRain',
+'Ocean Rain','../../covers/albumart/oceanRain.webp'
 ),
 (
 'ofMonstersAndMen',
@@ -1050,6 +1070,10 @@ delete from albums;INSERT into albums (id,title,artworkPath) VALUES
 (
 'yashraj',
 'Yashraj','../../covers/albumart/yashraj.webp'
+),
+(
+'yearsAndYears',
+'Years And Years','../../covers/albumart/yearsAndYears.webp'
 ),
 (
 'yellowDiary',
