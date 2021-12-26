@@ -839,5 +839,4 @@ delete from artists;INSERT into artists (id,name) VALUES
 ("Farhan Akhtar {Jaaved Akhtar}","Farhan Akhtar {Jaaved Akhtar}"),
 ("Mohit chauhan, Alyssa Mendonsa (Shankar Ehsaan Loy) {Jaaved Akhtar}","Mohit chauhan, Alyssa Mendonsa (Shankar Ehsaan Loy) {Jaaved Akhtar}"),
 ("Shankar Madhavan (Shankar-Ehsaan-Loy) {Jaaved Akhtar}","Shankar Madhavan (Shankar-Ehsaan-Loy) {Jaaved Akhtar}"),
-("Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}","Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}")
-;
+("Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}","Vishaal Dhadhlani (Shankar-Ehsaan-Loy){Jaaved Akhtar}"),
