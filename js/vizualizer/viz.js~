@@ -1,7 +1,7 @@
 let aspect=0.7;
 let vizualizer = function(p){
 	p.preload=function(){
-		p.metaShader=metaballmetaShader(p);
+		p.metaShader=metaballmetaShader(this);
 		p.dancerAnimn=[];
 		for (let i=0; i<14;i++){
 			let fn='../js/vizualizer/assets/zeoSprites/'+ p.nf(i,2,0)+'.png';

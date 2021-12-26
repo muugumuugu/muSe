@@ -1,4 +1,4 @@
-playlistinfos["ccf"]="Cold Coffee wid a Straw";
+playlistinfos["ccf"]="Cold Coffe wid a Straw";
 playlistinfos["dc"]="Dark Chocolate and a Wet Pillow";
 playlistinfos["dd"]="Dandelion";
 playlistinfos["dhup"]="DoOooOOop";
@@ -18,3 +18,4 @@ playlistinfos["swcl"]="Leaning on citylights, gazing into starwinds";
 playlistinfos["tempmixtape"]="temporary hyperfixation mixtape";
 playlistinfos["tm"]="Trail Mix";
 playlistinfos["ub"]="Under Banyan";
+playlistinfos["srrnd"]="surround";
